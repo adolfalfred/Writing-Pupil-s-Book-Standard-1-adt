@@ -29,14 +29,48 @@
     }
   }
 
+  function controlValue(control) {
+    return control.isContentEditable ? control.textContent || "" : control.value;
+  }
+
+  function setControlValue(control, value) {
+    if (control.isContentEditable) {
+      control.textContent = value;
+    } else {
+      control.value = value;
+    }
+  }
+
   function initialiseTextControl(control) {
     var id = control.getAttribute("data-practice-storage");
     if (!id) return;
     var stored = readStored(id);
-    if (stored !== null) control.value = stored;
+    if (stored !== null) setControlValue(control, stored);
     control.addEventListener("input", function () {
-      writeStored(id, control.value);
+      writeStored(id, controlValue(control));
     });
+  }
+
+  function alternativeValue(canvas) {
+    var alternative = document.querySelector(
+      '[data-canvas-alternative="' + canvas.id + '"]'
+    );
+    return alternative ? controlValue(alternative).trim() : "";
+  }
+
+  function updateCanvasResponse(canvas, hasDrawing) {
+    var response = document.querySelector(
+      '[data-canvas-response="' + canvas.id + '"]'
+    );
+    if (!response) return;
+    var complete = hasDrawing || alternativeValue(canvas) !== "";
+    var nextValue = complete ? "Drawing completed" : "";
+    if (response.value !== nextValue) {
+      response.value = nextValue;
+      response.dispatchEvent(new Event("input", { bubbles: true }));
+      response.dispatchEvent(new Event("change", { bubbles: true }));
+    }
+    response.classList.toggle("is-complete", complete);
   }
 
   function canvasPoint(canvas, event) {
@@ -51,6 +85,7 @@
     var context = canvas.getContext("2d");
     var id = canvas.getAttribute("data-practice-storage") || canvas.id;
     var drawing = false;
+    var strokeMade = false;
 
     context.lineCap = "round";
     context.lineJoin = "round";
@@ -58,6 +93,7 @@
     context.strokeStyle = "#172033";
 
     var stored = readStored(id);
+    canvas.dataset.hasDrawing = stored ? "true" : "false";
     if (stored) {
       var image = new Image();
       image.addEventListener("load", function () {
@@ -65,10 +101,12 @@
       });
       image.src = stored;
     }
+    updateCanvasResponse(canvas, Boolean(stored));
 
     canvas.addEventListener("pointerdown", function (event) {
       event.preventDefault();
       drawing = true;
+      strokeMade = false;
       canvas.setPointerCapture(event.pointerId);
       var point = canvasPoint(canvas, event);
       context.beginPath();
@@ -81,6 +119,7 @@
       var point = canvasPoint(canvas, event);
       context.lineTo(point.x, point.y);
       context.stroke();
+      strokeMade = true;
     });
 
     function finishDrawing(event) {
@@ -89,7 +128,11 @@
       if (event && canvas.hasPointerCapture(event.pointerId)) {
         canvas.releasePointerCapture(event.pointerId);
       }
-      writeStored(id, canvas.toDataURL("image/png"));
+      if (strokeMade) {
+        canvas.dataset.hasDrawing = "true";
+        writeStored(id, canvas.toDataURL("image/png"));
+        updateCanvasResponse(canvas, true);
+      }
     }
 
     canvas.addEventListener("pointerup", finishDrawing);
@@ -99,15 +142,28 @@
     if (clearButton) {
       clearButton.addEventListener("click", function () {
         context.clearRect(0, 0, canvas.width, canvas.height);
+        canvas.dataset.hasDrawing = "false";
         removeStored(id);
+        updateCanvasResponse(canvas, false);
         canvas.focus();
+      });
+    }
+
+    var alternative = document.querySelector(
+      '[data-canvas-alternative="' + canvas.id + '"]'
+    );
+    if (alternative) {
+      alternative.addEventListener("input", function () {
+        updateCanvasResponse(canvas, canvas.dataset.hasDrawing === "true");
       });
     }
   }
 
   function initialise() {
     document
-      .querySelectorAll('input[data-practice-storage], textarea[data-practice-storage]')
+      .querySelectorAll(
+        'input[data-practice-storage], textarea[data-practice-storage], [contenteditable="true"][data-practice-storage]'
+      )
       .forEach(initialiseTextControl);
     document.querySelectorAll("canvas.drawing-canvas").forEach(initialiseCanvas);
   }

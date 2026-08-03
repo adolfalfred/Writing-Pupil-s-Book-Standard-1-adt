@@ -319,9 +319,51 @@ body {
   font-weight: 700;
 }
 
+.drawing-status-row {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  margin-top: .7rem;
+}
+
+.drawing-status-row label {
+  flex: 0 0 auto;
+  color: #3d4a45;
+  font-weight: 700;
+}
+
+#content input.drawing-response[type="text"] {
+  min-width: 0;
+  min-height: 2.8rem;
+  height: 2.8rem;
+  flex: 1;
+  border: 2px solid #e7b14c;
+  border-radius: .7rem;
+  background-color: #fff9e8;
+  background-image: none;
+  padding: .45rem .7rem;
+  color: #604916;
+  font-family: "Atkinson Hyperlegible", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.35;
+}
+
+#content input.drawing-response.is-complete[type="text"] {
+  border-color: var(--book-green);
+  background-color: #effbf4;
+  background-image: none;
+  color: var(--book-green-dark);
+}
+
 .drawing-alternative {
   margin-top: .75rem;
   color: #3d4a45;
+}
+
+.drawing-alternative-input {
+  margin-top: .45rem;
+  white-space: pre-wrap;
 }
 
 .word-search {
