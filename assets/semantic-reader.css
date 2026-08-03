@@ -1,0 +1,459 @@
+:root {
+  --book-green: #079447;
+  --book-green-dark: #08763d;
+  --book-red: #d9232e;
+  --book-orange: #f28722;
+  --book-yellow: #fffbd0;
+  --book-blue: #6cb8df;
+  --book-ink: #292425;
+}
+
+body {
+  background: #edf7f1;
+  color: var(--book-ink);
+  font-family: "Sassoon Primary", "Atkinson Hyperlegible", Arial, sans-serif;
+}
+
+#content.container {
+  max-width: 80rem;
+  min-height: 100vh;
+}
+
+.semantic-page {
+  margin: 0 auto;
+  max-width: 72rem;
+}
+
+.semantic-title {
+  margin-bottom: 1.5rem;
+  color: var(--book-red);
+  font-size: clamp(2rem, 5vw, 3.15rem);
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.unit-banner {
+  margin-bottom: 1.75rem;
+  border-radius: 1.25rem;
+  background: linear-gradient(135deg, #2eb969, var(--book-green));
+  padding: 1.2rem 1.5rem;
+  color: #fff;
+  text-align: center;
+  box-shadow: 0 12px 28px rgb(8 118 61 / 18%);
+}
+
+.unit-banner h2 {
+  font-size: clamp(2.25rem, 6vw, 4rem);
+  font-weight: 800;
+  line-height: 1;
+}
+
+.unit-banner p {
+  margin-top: .6rem;
+  font-size: clamp(1.4rem, 3vw, 2.1rem);
+  font-weight: 700;
+}
+
+.lesson-card,
+.activity-card,
+.content-card,
+.practice-card,
+.picture-answer-card,
+.drawing-card,
+.screenshot-card {
+  border: 2px solid #b7e3cb;
+  border-radius: 1.25rem;
+  background: #fff;
+  box-shadow: 0 8px 22px rgb(25 70 47 / 8%);
+}
+
+.lesson-card {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(9rem, 17rem);
+  align-items: center;
+  gap: 1.25rem;
+  margin: 2rem 0 1.25rem;
+  padding: 1.25rem 1.4rem;
+}
+
+.lesson-label,
+.activity-label {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.7rem;
+  border-radius: .8rem;
+  background: linear-gradient(135deg, #f59e2f, var(--book-orange));
+  padding: .35rem 1.2rem;
+  color: #fff;
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.lesson-card h2 {
+  margin-top: .65rem;
+  color: var(--book-red);
+  font-size: clamp(1.8rem, 4vw, 2.6rem);
+  font-weight: 800;
+}
+
+.lesson-card h2 strong {
+  color: var(--book-green);
+}
+
+.lesson-illustration {
+  min-height: 9rem;
+  border: 2px solid #f58b75;
+  border-radius: 1rem;
+  background: #fff86c;
+  padding: .65rem;
+}
+
+.lesson-illustration img {
+  width: 100%;
+  height: 9rem;
+  object-fit: contain;
+}
+
+.lesson-illustration figcaption {
+  color: var(--book-green-dark);
+  font-size: 1.25rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.practice-card,
+.drawing-card,
+.activity-card,
+.content-card {
+  margin: 1.1rem 0;
+  padding: 1.25rem;
+}
+
+.practice-card > p,
+.drawing-card > p,
+.activity-card > p,
+.content-card > p {
+  font-size: 1.35rem;
+  line-height: 1.5;
+}
+
+.question-prompt {
+  margin-bottom: .85rem;
+  font-weight: 700;
+}
+
+.handwriting-guide {
+  position: relative;
+  overflow: hidden;
+  min-height: 5.75rem;
+  border: 1px solid #c8d0d6;
+  border-radius: .8rem;
+  background-color: #fff;
+  background-image:
+    linear-gradient(to bottom,
+      #27313b 0, #27313b 1px,
+      transparent 1px, transparent 31%,
+      #ef3340 31%, #ef3340 calc(31% + 1px),
+      transparent calc(31% + 1px), transparent 58%,
+      #ef3340 58%, #ef3340 calc(58% + 1px),
+      transparent calc(58% + 1px), transparent calc(100% - 1px),
+      #27313b calc(100% - 1px), #27313b 100%);
+  padding: .65rem 1rem;
+}
+
+.handwriting-model {
+  display: flex;
+  min-height: 5.75rem;
+  align-items: center;
+  color: #2f2929;
+  font-family: "Maandishi", "Sassoon Primary", cursive;
+  font-size: clamp(2.6rem, 7vw, 4.8rem);
+  letter-spacing: .18em;
+  white-space: nowrap;
+}
+
+.pattern-model-image {
+  width: 100%;
+  max-height: 8rem;
+  object-fit: contain;
+}
+
+.handwriting-lines,
+.short-writing-input,
+.sentence-input {
+  width: 100%;
+  border: 2px solid #84caac;
+  border-radius: .85rem;
+  background-color: #fff;
+  color: #172033;
+  font-family: "Maandishi", "Sassoon Primary", cursive;
+  font-size: 1.65rem;
+}
+
+.handwriting-lines {
+  min-height: calc(max(1, var(--writing-row-count, 1)) * 5.75rem);
+  margin-top: .75rem;
+  padding: .75rem 1rem;
+  line-height: 5.75rem !important;
+  background-image:
+    linear-gradient(to bottom,
+      #27313b 0, #27313b 1px,
+      transparent 1px, transparent 31%,
+      #ef3340 31%, #ef3340 calc(31% + 1px),
+      transparent calc(31% + 1px), transparent 58%,
+      #ef3340 58%, #ef3340 calc(58% + 1px),
+      transparent calc(58% + 1px), transparent calc(100% - 1px),
+      #27313b calc(100% - 1px), #27313b 100%);
+  background-size: 100% 5.75rem;
+  resize: vertical;
+}
+
+.word-practice-grid,
+.picture-grid,
+.drawing-grid,
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.word-practice-card {
+  border: 2px solid #b7e3cb;
+  border-radius: 1rem;
+  background: #f7fff9;
+  padding: .8rem;
+}
+
+.word-model,
+.letter-tiles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: .45rem;
+  min-height: 3.2rem;
+  margin-bottom: .65rem;
+  font-family: "Maandishi", "Sassoon Primary", cursive;
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+.letter-tile,
+.word-token {
+  display: inline-flex;
+  min-width: 2.6rem;
+  min-height: 2.6rem;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--book-green);
+  border-radius: .7rem;
+  background: #fff;
+  padding: .3rem .65rem;
+}
+
+.short-writing-input,
+.sentence-input {
+  min-height: 3.4rem;
+  padding: .5rem .75rem;
+}
+
+.picture-answer-card {
+  display: flex;
+  min-height: 17rem;
+  flex-direction: column;
+  padding: .9rem;
+}
+
+.picture-answer-card figure {
+  display: flex;
+  min-height: 11rem;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.picture-answer-card img {
+  max-height: 11rem;
+  object-fit: contain;
+}
+
+.picture-number {
+  color: var(--book-green);
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.drawing-canvas {
+  width: 100%;
+  min-height: 15rem;
+  touch-action: none;
+  border: 2px dashed var(--book-green);
+  border-radius: .9rem;
+  background-color: #fff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.drawing-clear {
+  margin-top: .7rem;
+  border-radius: .7rem;
+  background: #e9f8ef;
+  padding: .45rem .85rem;
+  color: var(--book-green-dark);
+  font-weight: 700;
+}
+
+.drawing-alternative {
+  margin-top: .75rem;
+  color: #3d4a45;
+}
+
+.word-search {
+  overflow-x: auto;
+  margin: 1rem auto;
+}
+
+.word-search table {
+  margin: auto;
+  border-collapse: collapse;
+  font-size: clamp(1.35rem, 4vw, 2.1rem);
+  font-weight: 800;
+}
+
+.word-search td {
+  min-width: 2.6rem;
+  border: 1px solid var(--book-green);
+  padding: .35rem;
+  text-align: center;
+}
+
+.screenshot-card {
+  overflow: hidden;
+  padding: .75rem;
+}
+
+.screenshot-card img {
+  width: 100%;
+  max-height: 32rem;
+  object-fit: contain;
+}
+
+.screenshot-card figcaption {
+  padding: .65rem .35rem 0;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.contents-list {
+  display: grid;
+  gap: .45rem;
+}
+
+.contents-heading {
+  margin-top: 1.2rem;
+  color: var(--book-red);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.contents-link {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  border-bottom: 1px dotted #89a797;
+  padding: .35rem .2rem;
+  color: #075f39;
+  font-size: 1.15rem;
+}
+
+.contents-link:hover,
+.contents-link:focus-visible {
+  background: #eefaf3;
+  text-decoration: underline;
+}
+
+.credit-grid {
+  display: grid;
+  grid-template-columns: minmax(9rem, 15rem) minmax(0, 1fr);
+  gap: .65rem 1.1rem;
+}
+
+.credit-grid dt {
+  color: var(--book-green-dark);
+  font-weight: 800;
+}
+
+.sentence-exercise {
+  display: grid;
+  grid-template-columns: minmax(8rem, 14rem) minmax(0, 1fr);
+  gap: 1rem;
+  margin: 1rem 0;
+  border-top: 1px solid #b7d6c4;
+  padding-top: 1rem;
+}
+
+.sentence-exercise img {
+  width: 100%;
+  max-height: 12rem;
+  object-fit: contain;
+}
+
+.page-footer {
+  margin-top: 2rem;
+  color: var(--book-green-dark);
+  font-size: 1.15rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.title-page-image {
+  width: min(100%, 52rem);
+  margin: 0 auto;
+  border-radius: 1rem;
+  box-shadow: 0 14px 40px rgb(0 0 0 / 16%);
+}
+
+@media (max-width: 760px) {
+  .lesson-card,
+  .sentence-exercise {
+    grid-template-columns: 1fr;
+  }
+
+  .word-practice-grid,
+  .picture-grid,
+  .drawing-grid,
+  .screenshot-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .picture-answer-card {
+    min-height: 0;
+  }
+
+  .credit-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media print {
+  body {
+    background: #fff;
+  }
+
+  .drawing-clear,
+  .drawing-alternative {
+    display: none;
+  }
+
+  .lesson-card,
+  .activity-card,
+  .content-card,
+  .practice-card,
+  .picture-answer-card,
+  .drawing-card,
+  .screenshot-card {
+    break-inside: avoid;
+    box-shadow: none;
+  }
+}
