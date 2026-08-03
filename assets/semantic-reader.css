@@ -295,6 +295,21 @@ body {
   background-size: contain;
 }
 
+.pattern-card > figure {
+  margin-bottom: .35rem;
+}
+
+.pattern-card > figure img {
+  width: 100%;
+  max-height: 7rem;
+  object-fit: contain;
+}
+
+.pattern-card > figure + .drawing-canvas,
+.pattern-card > img + .drawing-canvas {
+  margin-top: 0;
+}
+
 .drawing-clear {
   margin-top: .7rem;
   border-radius: .7rem;
