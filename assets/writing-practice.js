@@ -64,7 +64,7 @@
     );
     if (!response) return;
     var complete = hasDrawing || alternativeValue(canvas) !== "";
-    var nextValue = complete ? "Drawing completed" : "";
+    var nextValue = complete ? "Response completed" : "";
     if (response.value !== nextValue) {
       response.value = nextValue;
       response.dispatchEvent(new Event("input", { bubbles: true }));

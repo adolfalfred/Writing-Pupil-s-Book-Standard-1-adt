@@ -142,34 +142,59 @@ body {
   font-weight: 700;
 }
 
-.handwriting-guide {
+.handwriting-guide,
+.handwriting-canvas-wrap {
   position: relative;
   overflow: hidden;
-  min-height: 5.75rem;
   border: 1px solid #c8d0d6;
   border-radius: .8rem;
   background-color: #fff;
-  background-image:
-    linear-gradient(to bottom,
-      #27313b 0, #27313b 1px,
-      transparent 1px, transparent 31%,
-      #ef3340 31%, #ef3340 calc(31% + 1px),
-      transparent calc(31% + 1px), transparent 58%,
-      #ef3340 58%, #ef3340 calc(58% + 1px),
-      transparent calc(58% + 1px), transparent calc(100% - 1px),
-      #27313b calc(100% - 1px), #27313b 100%);
-  padding: .65rem 1rem;
+  background-image: url("../images/handwriting-guide.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 100% 100%;
 }
 
-.handwriting-model {
+.handwriting-guide {
+  height: clamp(8rem, 16vw, 11rem);
+}
+
+.handwriting-model-svg {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+#content .handwriting-model-svg text {
+  fill: #2f2929;
+  font-family: "Sassoon Primary", "SassoonPrimary", cursive;
+  font-size: clamp(3.6rem, 6vw, 4.8rem);
+  font-weight: 400;
+  letter-spacing: .08em;
+}
+
+#content .handwriting-model-svg.handwriting-trace-model text {
+  fill: transparent;
+  stroke: #5b6268;
+  stroke-width: 1.4px;
+  stroke-dasharray: 4 4;
+}
+
+.handwriting-pattern-reference {
   display: flex;
-  min-height: 5.75rem;
+  min-height: 5rem;
   align-items: center;
-  color: #2f2929;
-  font-family: "Maandishi", "Sassoon Primary", cursive;
-  font-size: clamp(2.6rem, 7vw, 4.8rem);
-  letter-spacing: .18em;
-  white-space: nowrap;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: .65rem;
+  border: 1px solid #d8e2dd;
+  border-radius: .8rem;
+  background: #fff;
+  padding: .45rem;
 }
 
 .pattern-model-image {
@@ -178,7 +203,6 @@ body {
   object-fit: contain;
 }
 
-.handwriting-lines,
 .short-writing-input,
 .sentence-input {
   width: 100%;
@@ -188,24 +212,6 @@ body {
   color: #172033;
   font-family: "Maandishi", "Sassoon Primary", cursive;
   font-size: 1.65rem;
-}
-
-.handwriting-lines {
-  min-height: calc(max(1, var(--writing-row-count, 1)) * 5.75rem);
-  margin-top: .75rem;
-  padding: .75rem 1rem;
-  line-height: 5.75rem !important;
-  background-image:
-    linear-gradient(to bottom,
-      #27313b 0, #27313b 1px,
-      transparent 1px, transparent 31%,
-      #ef3340 31%, #ef3340 calc(31% + 1px),
-      transparent calc(31% + 1px), transparent 58%,
-      #ef3340 58%, #ef3340 calc(58% + 1px),
-      transparent calc(58% + 1px), transparent calc(100% - 1px),
-      #27313b calc(100% - 1px), #27313b 100%);
-  background-size: 100% 5.75rem;
-  resize: vertical;
 }
 
 .word-practice-grid,
@@ -293,6 +299,28 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.handwriting-canvas-wrap {
+  width: 100%;
+  height: clamp(8rem, 16vw, 11rem);
+  margin-top: .65rem;
+}
+
+.handwriting-canvas-wrap.is-compact {
+  height: 8.25rem;
+}
+
+.drawing-canvas.handwriting-canvas {
+  position: absolute;
+  z-index: 2;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  border-style: solid;
+  background-color: transparent;
+  background-image: none;
 }
 
 .pattern-card > figure {

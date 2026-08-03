@@ -310,86 +310,9 @@ body {
   letter-spacing: 0.035em;
 }
 
-/* Source-faithful four-line primary handwriting guides. The image is the
-   exact black/red ruling extracted from Standard One source page 6. */
-.handwriting-guide,
-#content textarea,
-#content input[type="text"] {
-  --handwriting-row-height: 4rem;
-  background-color: #fff;
-  background-image: url("../images/handwriting-guide.png");
-  background-repeat: repeat-y;
-  background-position: left 0.25rem;
-  background-size: 100% var(--handwriting-row-height);
-}
-
-.handwriting-guide {
-  min-height: calc(var(--handwriting-row-height) * 2);
-  margin-right: auto;
-  margin-left: auto;
-  padding: 0 1rem;
-  overflow: hidden;
-  border: 0;
-  border-radius: 0;
-  line-height: var(--handwriting-row-height);
-  font-size: clamp(1.05rem, 2.2vw, 1.5rem);
-  letter-spacing: 0.035em;
-}
-
-#content .handwriting-guide {
-  font-family: "Maandishi", "Sassoon Primary", "SassoonPrimary", sans-serif;
-}
-
-#content ol.handwriting-guide {
-  list-style-position: inside;
-}
-
-#content .handwriting-guide > li {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: var(--handwriting-row-height);
-}
-
-#content textarea {
-  /* Size Sassoon Primary against the four-line ruling: lowercase bodies sit
-     between the red lines, capitals and ascenders rise above them, and
-     descenders fall below the baseline. */
-  font-size: 1.75rem;
-  line-height: var(--handwriting-row-height);
-  padding: 0 1rem;
-  background-position-y: 0.4rem;
-  background-attachment: local;
-}
-
-/* Writing activities declare how many complete primary-handwriting rows they
-   need. The extra quarter-rem accounts for the two-pixel borders so the last
-   four-line guide is never clipped. */
-#content textarea[data-writing-rows] {
-  min-height: calc(
-    var(--handwriting-row-height) * var(--writing-row-count) + 0.25rem
-  );
-}
-
-#content textarea[data-writing-rows="2"] { --writing-row-count: 2; }
-#content textarea[data-writing-rows="3"] { --writing-row-count: 3; }
-#content textarea[data-writing-rows="4"] { --writing-row-count: 4; }
-#content textarea[data-writing-rows="5"] { --writing-row-count: 5; }
-#content textarea[data-writing-rows="6"] { --writing-row-count: 6; }
-#content textarea[data-writing-rows="7"] { --writing-row-count: 7; }
-#content textarea[data-writing-rows="8"] { --writing-row-count: 8; }
-#content textarea[data-writing-rows="10"] { --writing-row-count: 10; }
-#content textarea[data-writing-rows="12"] { --writing-row-count: 12; }
-#content textarea[data-writing-rows="14"] { --writing-row-count: 14; }
-#content textarea[data-writing-rows="16"] { --writing-row-count: 16; }
-#content textarea[data-writing-rows="18"] { --writing-row-count: 18; }
-
-#content input[type="text"] {
-  min-height: var(--handwriting-row-height);
-  padding: 0 1rem;
-  font-size: 1.75rem;
-  line-height: var(--handwriting-row-height);
-  background-position-y: 0.4rem;
-}
+/* The semantic reader owns the ruled drawing surface. Text controls are kept
+   only inside the collapsed keyboard alternative, so global inputs must not
+   inherit book ruling or handwriting-line metrics. */
 
 .unit-banner {
   background: linear-gradient(90deg, #0284c7, #06b6d4);
@@ -405,10 +328,6 @@ body {
   display: inline-block;
   background: white;
   color: #e11d48;
-}
-
-.handwriting-lines {
-  line-height: var(--handwriting-row-height, 4rem);
 }
 
 .source-unit-hero {
