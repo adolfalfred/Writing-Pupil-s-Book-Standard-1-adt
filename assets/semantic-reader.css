@@ -142,6 +142,14 @@ body {
   font-weight: 700;
 }
 
+.book-external-link {
+  display: inline-block;
+  max-width: 100%;
+  padding: .35rem .5rem;
+  border-radius: .5rem;
+  overflow-wrap: anywhere;
+}
+
 .handwriting-guide,
 .handwriting-canvas-wrap {
   position: relative;
@@ -509,7 +517,14 @@ body {
   .picture-grid,
   .drawing-grid,
   .screenshot-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .word-practice-card,
+  .picture-answer-card,
+  .drawing-card,
+  .practice-card {
+    min-width: 0;
   }
 
   .picture-answer-card {
