@@ -25,11 +25,20 @@
   },
   "braille": {
     "enabled": true,
-    "implementationPhase": "native-assistive-technology-baseline",
+    "implementationPhase": "native-baseline-and-educator-review-manifest",
     "nativeTextInput": true,
     "sixKeyInput": false,
     "translationTable": null,
-    "translationStatus": "awaiting-qualified-tanzanian-braille-educator-review"
+    "translationStatus": "awaiting-qualified-tanzanian-braille-educator-review",
+    "activityManifest": "content/accessibility/braille-activity-manifest.json",
+    "sixKeyPilotStatus": "metadata-ready-awaiting-specialist-approval",
+    "sixKeyPilotSourcePages": [
+      11,
+      13,
+      15,
+      31,
+      86
+    ]
   },
   "analytics": {
     "enabled": false,
