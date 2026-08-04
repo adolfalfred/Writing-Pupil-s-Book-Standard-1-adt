@@ -243,8 +243,8 @@ body {
 
 .screenshot-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 1rem;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2rem;
 }
 
 .word-practice-card {
@@ -441,13 +441,24 @@ body {
 
 .screenshot-card {
   overflow: hidden;
-  padding: .75rem;
+  width: 100%;
+  padding: 1rem;
 }
 
 .screenshot-card img {
   width: 100%;
-  max-height: 32rem;
+  height: auto;
+  max-height: 44rem;
   object-fit: contain;
+}
+
+.screenshot-card--app-icon {
+  display: grid;
+  justify-items: center;
+}
+
+.screenshot-card .gcompris-app-icon {
+  width: min(18rem, 100%);
 }
 
 .screenshot-card figcaption {
