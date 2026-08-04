@@ -179,10 +179,18 @@ body {
 
 #content .handwriting-model-svg text {
   fill: #2f2929;
-  font-family: "Sassoon Primary", "SassoonPrimary", cursive;
-  font-size: clamp(3.6rem, 6vw, 4.8rem);
+  font-family: "Edu TAS Beginner", "Maandishi", "Sassoon Primary", cursive;
+  /*
+   * The source writing baseline is the lower red line at 64.5/143 (45.1%).
+   * At 58% of the guide height, this font places lowercase bodies between the
+   * two red lines while capitals, ascenders and descenders use their full zones.
+   * Each SVG text element carries y="45%" so the baseline remains part of the
+   * semantic page markup instead of depending on a browser-specific CSS y rule.
+   */
+  font-size: clamp(4.64rem, 9.28vw, 6.38rem);
   font-weight: 400;
-  letter-spacing: .08em;
+  font-synthesis: none;
+  letter-spacing: .04em;
 }
 
 #content .handwriting-model-svg.handwriting-trace-model text {
@@ -404,6 +412,8 @@ body {
 
 .drawing-alternative-input {
   margin-top: .45rem;
+  font-family: "Edu TAS Beginner", "Maandishi", "Sassoon Primary", cursive;
+  font-synthesis: none;
   white-space: pre-wrap;
 }
 

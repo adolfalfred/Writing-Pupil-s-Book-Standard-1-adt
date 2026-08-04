@@ -36,6 +36,18 @@
   font-display: swap;
 }
 
+/*
+ * Complete beginner-handwriting face for ruled models and keyboard alternatives.
+ * Its cap-height to x-height ratio closely matches the source four-line ruling.
+ */
+@font-face {
+  font-family: "Edu TAS Beginner";
+  src: url("./fonts/EduTASBeginner.ttf") format("truetype");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Reader chrome defaults to the highly legible navigation face. */
 body,
 button,

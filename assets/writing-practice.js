@@ -159,7 +159,20 @@
     }
   }
 
+  function initialiseHandwritingModel(model) {
+    /*
+     * Keep the curriculum-correct vertical size at every breakpoint. SVG
+     * adjusts only the gaps between repeated examples so all models remain
+     * visible on narrow screens without flattening the letter shapes.
+     */
+    model.setAttribute("textLength", "94%");
+    model.setAttribute("lengthAdjust", "spacing");
+  }
+
   function initialise() {
+    document
+      .querySelectorAll(".handwriting-model-svg text")
+      .forEach(initialiseHandwritingModel);
     document
       .querySelectorAll(
         'input[data-practice-storage], textarea[data-practice-storage], [contenteditable="true"][data-practice-storage]'
