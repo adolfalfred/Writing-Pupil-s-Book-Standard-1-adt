@@ -23,6 +23,14 @@
     "highlight": false,
     "activities": true
   },
+  "braille": {
+    "enabled": true,
+    "implementationPhase": "native-assistive-technology-baseline",
+    "nativeTextInput": true,
+    "sixKeyInput": false,
+    "translationTable": null,
+    "translationStatus": "awaiting-qualified-tanzanian-braille-educator-review"
+  },
   "analytics": {
     "enabled": false,
     "siteId": 0,

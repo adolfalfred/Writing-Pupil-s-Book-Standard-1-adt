@@ -410,14 +410,48 @@ body {
 
 .drawing-alternative {
   margin-top: .75rem;
+  border: 2px solid #8eb9d8;
+  border-radius: .8rem;
+  background: #f4faff;
+  padding: .7rem .85rem;
   color: #3d4a45;
+}
+
+.drawing-alternative summary {
+  cursor: pointer;
+  color: #183f5b;
+  font-weight: 800;
+}
+
+.drawing-alternative summary:focus-visible,
+.drawing-alternative-input:focus-visible {
+  outline: 3px solid #1d70a2;
+  outline-offset: 3px;
+}
+
+.accessible-instruction,
+.braille-support-note,
+.tactile-resource-note {
+  margin-top: .65rem;
+}
+
+.braille-support-note {
+  color: #244c65;
+}
+
+.tactile-resource-note {
+  border-left: 4px solid #d49a27;
+  padding-left: .65rem;
+  color: #604916;
+  font-weight: 700;
 }
 
 #content .drawing-alternative-input {
   margin-top: .45rem;
+  appearance: textfield;
   font-family: "Sassoon Primary", "Edu NSW ACT Foundation", "Maandishi", cursive;
   font-synthesis: none;
-  white-space: pre-wrap;
+  white-space: normal;
 }
 
 .word-search {
