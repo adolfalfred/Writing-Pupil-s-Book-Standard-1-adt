@@ -10,672 +10,917 @@
     "section_id": "pg001_sec001",
     "href": "pg001_sec001.html",
     "title": "Title page",
-    "chapter_id": "toc_pg001",
+    "chapter_id": "toc_pg001_sec001",
     "level": 1
   },
   {
     "section_id": "pg002_sec001",
     "href": "pg002_sec001.html",
     "title": "Publication information",
-    "chapter_id": "toc_pg002",
+    "chapter_id": "toc_pg002_sec001",
     "level": 1
   },
   {
     "section_id": "pg003_sec001",
     "href": "pg003_sec001.html",
     "title": "Table of Contents - page 1 of 5",
-    "chapter_id": "toc_pg003",
+    "chapter_id": "toc_pg003_sec001",
     "level": 1
   },
   {
     "section_id": "pg004_sec001",
     "href": "pg004_sec001.html",
     "title": "Table of Contents - page 2 of 5",
-    "chapter_id": "toc_pg004",
+    "chapter_id": "toc_pg004_sec001",
     "level": 1
   },
   {
     "section_id": "pg005_sec001",
     "href": "pg005_sec001.html",
     "title": "Table of Contents - page 3 of 5",
-    "chapter_id": "toc_pg005",
+    "chapter_id": "toc_pg005_sec001",
     "level": 1
   },
   {
     "section_id": "pg006_sec001",
     "href": "pg006_sec001.html",
     "title": "Table of Contents - page 4 of 5",
-    "chapter_id": "toc_pg006",
+    "chapter_id": "toc_pg006_sec001",
     "level": 1
   },
   {
     "section_id": "pg007_sec001",
     "href": "pg007_sec001.html",
     "title": "Table of Contents - page 5 of 5",
-    "chapter_id": "toc_pg007",
+    "chapter_id": "toc_pg007_sec001",
     "level": 1
   },
   {
     "section_id": "pg008_sec001",
     "href": "pg008_sec001.html",
     "title": "Acknowledgements - page 1 of 2",
-    "chapter_id": "toc_pg008",
+    "chapter_id": "toc_pg008_sec001",
     "level": 1
   },
   {
     "section_id": "pg009_sec001",
     "href": "pg009_sec001.html",
     "title": "Acknowledgements - page 2 of 2",
-    "chapter_id": "toc_pg009",
+    "chapter_id": "toc_pg009_sec001",
     "level": 1
   },
   {
     "section_id": "pg010_sec001",
     "href": "pg010_sec001.html",
     "title": "Introduction",
-    "chapter_id": "toc_pg010",
+    "chapter_id": "toc_pg010_sec001",
     "level": 1
   },
   {
     "section_id": "pg011_sec001",
     "href": "pg011_sec001.html",
     "title": "Unit One - Pre-writing exercises - Lesson 1: Drawing lines and patterns",
-    "chapter_id": "toc_pg011",
+    "chapter_id": "toc_pg011_sec001",
     "level": 1
   },
   {
     "section_id": "pg012_sec001",
     "href": "pg012_sec001.html",
-    "title": "Unit One - Lesson 1 continued and Lesson 2: Tracing pictures of objects",
-    "chapter_id": "toc_pg012",
+    "title": "Unit One - Lesson 1 continued",
+    "chapter_id": "toc_pg012_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg012_sec002",
+    "href": "pg012_sec002.html",
+    "title": "Lesson 2: Tracing pictures of objects",
+    "chapter_id": "toc_pg012_sec002",
     "level": 3
   },
   {
     "section_id": "pg013_sec001",
     "href": "pg013_sec001.html",
     "title": "Unit One - Lesson 3: Drawing pictures of objects",
-    "chapter_id": "toc_pg013",
+    "chapter_id": "toc_pg013_sec001",
     "level": 3
   },
   {
     "section_id": "pg014_sec001",
     "href": "pg014_sec001.html",
     "title": "Unit One - Lesson 4: Tracing dots to complete patterns",
-    "chapter_id": "toc_pg014",
+    "chapter_id": "toc_pg014_sec001",
     "level": 3
   },
   {
     "section_id": "pg015_sec001",
     "href": "pg015_sec001.html",
     "title": "Unit Two - Writing vowel letters in lowercase - Lesson 1: Letter a",
-    "chapter_id": "toc_pg015",
+    "chapter_id": "toc_pg015_sec001",
     "level": 1
   },
   {
     "section_id": "pg016_sec001",
     "href": "pg016_sec001.html",
-    "title": "Letter a continued; Lesson 2: Letter e",
-    "chapter_id": "toc_pg016",
+    "title": "Letter a continued",
+    "chapter_id": "toc_pg016_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg016_sec002",
+    "href": "pg016_sec002.html",
+    "title": "Lesson 2: Letter e",
+    "chapter_id": "toc_pg016_sec002",
     "level": 3
   },
   {
     "section_id": "pg017_sec001",
     "href": "pg017_sec001.html",
-    "title": "Letter e continued; Lesson 3: Letter i",
-    "chapter_id": "toc_pg017",
+    "title": "Letter e continued",
+    "chapter_id": "toc_pg017_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg017_sec002",
+    "href": "pg017_sec002.html",
+    "title": "Lesson 3: Letter i",
+    "chapter_id": "toc_pg017_sec002",
     "level": 3
   },
   {
     "section_id": "pg018_sec001",
     "href": "pg018_sec001.html",
-    "title": "Letter i continued; Lesson 4: Letter o",
-    "chapter_id": "toc_pg018",
+    "title": "Letter i continued",
+    "chapter_id": "toc_pg018_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg018_sec002",
+    "href": "pg018_sec002.html",
+    "title": "Lesson 4: Letter o",
+    "chapter_id": "toc_pg018_sec002",
     "level": 3
   },
   {
     "section_id": "pg019_sec001",
     "href": "pg019_sec001.html",
-    "title": "Letter o continued; Lesson 5: Letter u",
-    "chapter_id": "toc_pg019",
+    "title": "Letter o continued",
+    "chapter_id": "toc_pg019_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg019_sec002",
+    "href": "pg019_sec002.html",
+    "title": "Lesson 5: Letter u",
+    "chapter_id": "toc_pg019_sec002",
     "level": 3
   },
   {
     "section_id": "pg020_sec001",
     "href": "pg020_sec001.html",
     "title": "Letter u continued",
-    "chapter_id": "toc_pg020",
+    "chapter_id": "toc_pg020_sec001",
     "level": 3
   },
   {
     "section_id": "pg021_sec001",
     "href": "pg021_sec001.html",
     "title": "Unit Three - Writing vowel letters in uppercase - Lesson 1: Letter A",
-    "chapter_id": "toc_pg021",
+    "chapter_id": "toc_pg021_sec001",
     "level": 1
   },
   {
     "section_id": "pg022_sec001",
     "href": "pg022_sec001.html",
-    "title": "Letter A continued; Lesson 2: Letter E",
-    "chapter_id": "toc_pg022",
+    "title": "Letter A continued",
+    "chapter_id": "toc_pg022_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg022_sec002",
+    "href": "pg022_sec002.html",
+    "title": "Lesson 2: Letter E",
+    "chapter_id": "toc_pg022_sec002",
     "level": 3
   },
   {
     "section_id": "pg023_sec001",
     "href": "pg023_sec001.html",
-    "title": "Letter E continued; Lesson 3: Letter I",
-    "chapter_id": "toc_pg023",
+    "title": "Letter E continued",
+    "chapter_id": "toc_pg023_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg023_sec002",
+    "href": "pg023_sec002.html",
+    "title": "Lesson 3: Letter I",
+    "chapter_id": "toc_pg023_sec002",
     "level": 3
   },
   {
     "section_id": "pg024_sec001",
     "href": "pg024_sec001.html",
-    "title": "Letter I continued; Lesson 4: Letter O",
-    "chapter_id": "toc_pg024",
+    "title": "Letter I continued",
+    "chapter_id": "toc_pg024_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg024_sec002",
+    "href": "pg024_sec002.html",
+    "title": "Lesson 4: Letter O",
+    "chapter_id": "toc_pg024_sec002",
     "level": 3
   },
   {
     "section_id": "pg025_sec001",
     "href": "pg025_sec001.html",
-    "title": "Letter O continued; Lesson 5: Letter U",
-    "chapter_id": "toc_pg025",
+    "title": "Letter O continued",
+    "chapter_id": "toc_pg025_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg025_sec002",
+    "href": "pg025_sec002.html",
+    "title": "Lesson 5: Letter U",
+    "chapter_id": "toc_pg025_sec002",
     "level": 3
   },
   {
     "section_id": "pg026_sec001",
     "href": "pg026_sec001.html",
     "title": "Letter U continued",
-    "chapter_id": "toc_pg026",
+    "chapter_id": "toc_pg026_sec001",
     "level": 3
   },
   {
     "section_id": "pg027_sec001",
     "href": "pg027_sec001.html",
     "title": "Unit Four - Writing consonant letters in lowercase - Lesson 1: Letter b",
-    "chapter_id": "toc_pg027",
+    "chapter_id": "toc_pg027_sec001",
     "level": 1
   },
   {
     "section_id": "pg028_sec001",
     "href": "pg028_sec001.html",
-    "title": "Letter b continued; Lesson 2: Letter c",
-    "chapter_id": "toc_pg028",
+    "title": "Letter b continued",
+    "chapter_id": "toc_pg028_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg028_sec002",
+    "href": "pg028_sec002.html",
+    "title": "Lesson 2: Letter c",
+    "chapter_id": "toc_pg028_sec002",
     "level": 3
   },
   {
     "section_id": "pg029_sec001",
     "href": "pg029_sec001.html",
-    "title": "Letter c continued; Lesson 3: Letter d",
-    "chapter_id": "toc_pg029",
+    "title": "Letter c continued",
+    "chapter_id": "toc_pg029_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg029_sec002",
+    "href": "pg029_sec002.html",
+    "title": "Lesson 3: Letter d",
+    "chapter_id": "toc_pg029_sec002",
     "level": 3
   },
   {
     "section_id": "pg030_sec001",
     "href": "pg030_sec001.html",
-    "title": "Letter d continued; Lesson 4: Letter f",
-    "chapter_id": "toc_pg030",
+    "title": "Letter d continued",
+    "chapter_id": "toc_pg030_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg030_sec002",
+    "href": "pg030_sec002.html",
+    "title": "Lesson 4: Letter f",
+    "chapter_id": "toc_pg030_sec002",
     "level": 3
   },
   {
     "section_id": "pg031_sec001",
     "href": "pg031_sec001.html",
     "title": "Lesson 5: Joining letters to form words; Exercise 1",
-    "chapter_id": "toc_pg031",
+    "chapter_id": "toc_pg031_sec001",
     "level": 3
   },
   {
     "section_id": "pg032_sec001",
     "href": "pg032_sec001.html",
-    "title": "Lesson 6: Letter g; Lesson 7: Letter h",
-    "chapter_id": "toc_pg032",
+    "title": "Lesson 6: Letter g",
+    "chapter_id": "toc_pg032_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg032_sec002",
+    "href": "pg032_sec002.html",
+    "title": "Lesson 7: Letter h",
+    "chapter_id": "toc_pg032_sec002",
     "level": 3
   },
   {
     "section_id": "pg033_sec001",
     "href": "pg033_sec001.html",
-    "title": "Letter h continued; Lesson 8: Letter j",
-    "chapter_id": "toc_pg033",
+    "title": "Letter h continued",
+    "chapter_id": "toc_pg033_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg033_sec002",
+    "href": "pg033_sec002.html",
+    "title": "Lesson 8: Letter j",
+    "chapter_id": "toc_pg033_sec002",
     "level": 3
   },
   {
     "section_id": "pg034_sec001",
     "href": "pg034_sec001.html",
     "title": "Lesson 9: Letter k",
-    "chapter_id": "toc_pg034",
+    "chapter_id": "toc_pg034_sec001",
     "level": 3
   },
   {
     "section_id": "pg035_sec001",
     "href": "pg035_sec001.html",
     "title": "Lesson 10: Letter l",
-    "chapter_id": "toc_pg035",
+    "chapter_id": "toc_pg035_sec001",
     "level": 3
   },
   {
     "section_id": "pg036_sec001",
     "href": "pg036_sec001.html",
     "title": "Lesson 11: Letter m",
-    "chapter_id": "toc_pg036",
+    "chapter_id": "toc_pg036_sec001",
     "level": 3
   },
   {
     "section_id": "pg037_sec001",
     "href": "pg037_sec001.html",
     "title": "Lesson 12: Joining letters to form words",
-    "chapter_id": "toc_pg037",
+    "chapter_id": "toc_pg037_sec001",
     "level": 3
   },
   {
     "section_id": "pg038_sec001",
     "href": "pg038_sec001.html",
-    "title": "Exercise 2; Lesson 13: Letter n",
-    "chapter_id": "toc_pg038",
+    "title": "Exercise 2",
+    "chapter_id": "toc_pg038_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg038_sec002",
+    "href": "pg038_sec002.html",
+    "title": "Lesson 13: Letter n",
+    "chapter_id": "toc_pg038_sec002",
     "level": 3
   },
   {
     "section_id": "pg039_sec001",
     "href": "pg039_sec001.html",
-    "title": "Letter n continued; Lesson 14: Letter p",
-    "chapter_id": "toc_pg039",
+    "title": "Letter n continued",
+    "chapter_id": "toc_pg039_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg039_sec002",
+    "href": "pg039_sec002.html",
+    "title": "Lesson 14: Letter p",
+    "chapter_id": "toc_pg039_sec002",
     "level": 3
   },
   {
     "section_id": "pg040_sec001",
     "href": "pg040_sec001.html",
-    "title": "Letter p continued; Lesson 15: Letter q",
-    "chapter_id": "toc_pg040",
+    "title": "Letter p continued",
+    "chapter_id": "toc_pg040_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg040_sec002",
+    "href": "pg040_sec002.html",
+    "title": "Lesson 15: Letter q",
+    "chapter_id": "toc_pg040_sec002",
     "level": 3
   },
   {
     "section_id": "pg041_sec001",
     "href": "pg041_sec001.html",
-    "title": "Letter q continued; Lesson 16: Letter r",
-    "chapter_id": "toc_pg041",
+    "title": "Letter q continued",
+    "chapter_id": "toc_pg041_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg041_sec002",
+    "href": "pg041_sec002.html",
+    "title": "Lesson 16: Letter r",
+    "chapter_id": "toc_pg041_sec002",
     "level": 3
   },
   {
     "section_id": "pg042_sec001",
     "href": "pg042_sec001.html",
-    "title": "Letter r continued; Lesson 17: Letter s",
-    "chapter_id": "toc_pg042",
+    "title": "Letter r continued",
+    "chapter_id": "toc_pg042_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg042_sec002",
+    "href": "pg042_sec002.html",
+    "title": "Lesson 17: Letter s",
+    "chapter_id": "toc_pg042_sec002",
     "level": 3
   },
   {
     "section_id": "pg043_sec001",
     "href": "pg043_sec001.html",
-    "title": "Letter s continued; Lesson 18: Letter t",
-    "chapter_id": "toc_pg043",
+    "title": "Letter s continued",
+    "chapter_id": "toc_pg043_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg043_sec002",
+    "href": "pg043_sec002.html",
+    "title": "Lesson 18: Letter t",
+    "chapter_id": "toc_pg043_sec002",
     "level": 3
   },
   {
     "section_id": "pg044_sec001",
     "href": "pg044_sec001.html",
-    "title": "Letter t continued; Lesson 19: Joining letters to form words",
-    "chapter_id": "toc_pg044",
+    "title": "Letter t continued",
+    "chapter_id": "toc_pg044_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg044_sec002",
+    "href": "pg044_sec002.html",
+    "title": "Lesson 19: Joining letters to form words",
+    "chapter_id": "toc_pg044_sec002",
     "level": 3
   },
   {
     "section_id": "pg045_sec001",
     "href": "pg045_sec001.html",
     "title": "Lesson 19 continued - Copy words",
-    "chapter_id": "toc_pg045",
+    "chapter_id": "toc_pg045_sec001",
     "level": 3
   },
   {
     "section_id": "pg046_sec001",
     "href": "pg046_sec001.html",
     "title": "Exercise 3 - Join letters to form words",
-    "chapter_id": "toc_pg046",
+    "chapter_id": "toc_pg046_sec001",
     "level": 3
   },
   {
     "section_id": "pg047_sec001",
     "href": "pg047_sec001.html",
     "title": "Lesson 20: Letter v",
-    "chapter_id": "toc_pg047",
+    "chapter_id": "toc_pg047_sec001",
     "level": 3
   },
   {
     "section_id": "pg048_sec001",
     "href": "pg048_sec001.html",
     "title": "Lesson 21: Letter w",
-    "chapter_id": "toc_pg048",
+    "chapter_id": "toc_pg048_sec001",
     "level": 3
   },
   {
     "section_id": "pg049_sec001",
     "href": "pg049_sec001.html",
     "title": "Lesson 22: Letter x",
-    "chapter_id": "toc_pg049",
+    "chapter_id": "toc_pg049_sec001",
     "level": 3
   },
   {
     "section_id": "pg050_sec001",
     "href": "pg050_sec001.html",
     "title": "Lesson 23: Letter y",
-    "chapter_id": "toc_pg050",
+    "chapter_id": "toc_pg050_sec001",
     "level": 3
   },
   {
     "section_id": "pg051_sec001",
     "href": "pg051_sec001.html",
     "title": "Lesson 24: Letter z",
-    "chapter_id": "toc_pg051",
+    "chapter_id": "toc_pg051_sec001",
     "level": 3
   },
   {
     "section_id": "pg052_sec001",
     "href": "pg052_sec001.html",
     "title": "Lesson 25: Joining letters to form words",
-    "chapter_id": "toc_pg052",
+    "chapter_id": "toc_pg052_sec001",
     "level": 3
   },
   {
     "section_id": "pg053_sec001",
     "href": "pg053_sec001.html",
     "title": "Lesson 25 continued; Exercise 4",
-    "chapter_id": "toc_pg053",
+    "chapter_id": "toc_pg053_sec001",
     "level": 3
   },
   {
     "section_id": "pg054_sec001",
     "href": "pg054_sec001.html",
     "title": "Exercise 5: Word search; Exercise 6: Name pictures",
-    "chapter_id": "toc_pg054",
+    "chapter_id": "toc_pg054_sec001",
     "level": 3
   },
   {
     "section_id": "pg055_sec001",
     "href": "pg055_sec001.html",
     "title": "Exercise 6: Name pictures - part 1",
-    "chapter_id": "toc_pg055",
+    "chapter_id": "toc_pg055_sec001",
     "level": 3
   },
   {
     "section_id": "pg056_sec001",
     "href": "pg056_sec001.html",
     "title": "Exercise 6: Name pictures - part 2",
-    "chapter_id": "toc_pg056",
+    "chapter_id": "toc_pg056_sec001",
     "level": 3
   },
   {
     "section_id": "pg057_sec001",
     "href": "pg057_sec001.html",
     "title": "Exercise 6: Name pictures - part 3",
-    "chapter_id": "toc_pg057",
+    "chapter_id": "toc_pg057_sec001",
     "level": 3
   },
   {
     "section_id": "pg058_sec001",
     "href": "pg058_sec001.html",
     "title": "Unit Five - Writing consonant letters in uppercase - Lesson 1: Letter B",
-    "chapter_id": "toc_pg058",
+    "chapter_id": "toc_pg058_sec001",
     "level": 1
   },
   {
     "section_id": "pg059_sec001",
     "href": "pg059_sec001.html",
-    "title": "Letter B continued; Lesson 2: Letter C",
-    "chapter_id": "toc_pg059",
+    "title": "Letter B continued",
+    "chapter_id": "toc_pg059_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg059_sec002",
+    "href": "pg059_sec002.html",
+    "title": "Lesson 2: Letter C",
+    "chapter_id": "toc_pg059_sec002",
     "level": 3
   },
   {
     "section_id": "pg060_sec001",
     "href": "pg060_sec001.html",
     "title": "Letter C continued",
-    "chapter_id": "toc_pg060",
+    "chapter_id": "toc_pg060_sec001",
     "level": 3
   },
   {
     "section_id": "pg061_sec001",
     "href": "pg061_sec001.html",
     "title": "Lesson 3: Letter D",
-    "chapter_id": "toc_pg061",
+    "chapter_id": "toc_pg061_sec001",
     "level": 3
   },
   {
     "section_id": "pg062_sec001",
     "href": "pg062_sec001.html",
     "title": "Lesson 4: Letter F",
-    "chapter_id": "toc_pg062",
+    "chapter_id": "toc_pg062_sec001",
     "level": 3
   },
   {
     "section_id": "pg063_sec001",
     "href": "pg063_sec001.html",
-    "title": "Letter F continued; Lesson 5: Letter G",
-    "chapter_id": "toc_pg063",
+    "title": "Letter F continued",
+    "chapter_id": "toc_pg063_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg063_sec002",
+    "href": "pg063_sec002.html",
+    "title": "Lesson 5: Letter G",
+    "chapter_id": "toc_pg063_sec002",
     "level": 3
   },
   {
     "section_id": "pg064_sec001",
     "href": "pg064_sec001.html",
-    "title": "Letter G continued; Lesson 6: Letter H",
-    "chapter_id": "toc_pg064",
+    "title": "Letter G continued",
+    "chapter_id": "toc_pg064_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg064_sec002",
+    "href": "pg064_sec002.html",
+    "title": "Lesson 6: Letter H",
+    "chapter_id": "toc_pg064_sec002",
     "level": 3
   },
   {
     "section_id": "pg065_sec001",
     "href": "pg065_sec001.html",
-    "title": "Letter H continued; Lesson 7: Letter J",
-    "chapter_id": "toc_pg065",
+    "title": "Letter H continued",
+    "chapter_id": "toc_pg065_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg065_sec002",
+    "href": "pg065_sec002.html",
+    "title": "Lesson 7: Letter J",
+    "chapter_id": "toc_pg065_sec002",
     "level": 3
   },
   {
     "section_id": "pg066_sec001",
     "href": "pg066_sec001.html",
-    "title": "Letter J continued; Lesson 8: Letter K",
-    "chapter_id": "toc_pg066",
+    "title": "Letter J continued",
+    "chapter_id": "toc_pg066_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg066_sec002",
+    "href": "pg066_sec002.html",
+    "title": "Lesson 8: Letter K",
+    "chapter_id": "toc_pg066_sec002",
     "level": 3
   },
   {
     "section_id": "pg067_sec001",
     "href": "pg067_sec001.html",
-    "title": "Letter K continued; Lesson 9: Letter L",
-    "chapter_id": "toc_pg067",
+    "title": "Letter K continued",
+    "chapter_id": "toc_pg067_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg067_sec002",
+    "href": "pg067_sec002.html",
+    "title": "Lesson 9: Letter L",
+    "chapter_id": "toc_pg067_sec002",
     "level": 3
   },
   {
     "section_id": "pg068_sec001",
     "href": "pg068_sec001.html",
-    "title": "Letter L continued; Lesson 10: Letter M",
-    "chapter_id": "toc_pg068",
+    "title": "Letter L continued",
+    "chapter_id": "toc_pg068_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg068_sec002",
+    "href": "pg068_sec002.html",
+    "title": "Lesson 10: Letter M",
+    "chapter_id": "toc_pg068_sec002",
     "level": 3
   },
   {
     "section_id": "pg069_sec001",
     "href": "pg069_sec001.html",
-    "title": "Letter M continued; Lesson 11: Letter N",
-    "chapter_id": "toc_pg069",
+    "title": "Letter M continued",
+    "chapter_id": "toc_pg069_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg069_sec002",
+    "href": "pg069_sec002.html",
+    "title": "Lesson 11: Letter N",
+    "chapter_id": "toc_pg069_sec002",
     "level": 3
   },
   {
     "section_id": "pg070_sec001",
     "href": "pg070_sec001.html",
-    "title": "Letter N continued; Lesson 12: Letter P",
-    "chapter_id": "toc_pg070",
+    "title": "Letter N continued",
+    "chapter_id": "toc_pg070_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg070_sec002",
+    "href": "pg070_sec002.html",
+    "title": "Lesson 12: Letter P",
+    "chapter_id": "toc_pg070_sec002",
     "level": 3
   },
   {
     "section_id": "pg071_sec001",
     "href": "pg071_sec001.html",
     "title": "Letter P continued",
-    "chapter_id": "toc_pg071",
+    "chapter_id": "toc_pg071_sec001",
     "level": 3
   },
   {
     "section_id": "pg072_sec001",
     "href": "pg072_sec001.html",
     "title": "Lesson 13: Letter Q",
-    "chapter_id": "toc_pg072",
+    "chapter_id": "toc_pg072_sec001",
     "level": 3
   },
   {
     "section_id": "pg073_sec001",
     "href": "pg073_sec001.html",
-    "title": "Letter Q continued; Lesson 14: Letter R",
-    "chapter_id": "toc_pg073",
+    "title": "Letter Q continued",
+    "chapter_id": "toc_pg073_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg073_sec002",
+    "href": "pg073_sec002.html",
+    "title": "Lesson 14: Letter R",
+    "chapter_id": "toc_pg073_sec002",
     "level": 3
   },
   {
     "section_id": "pg074_sec001",
     "href": "pg074_sec001.html",
-    "title": "Letter R continued; Lesson 15: Letter S",
-    "chapter_id": "toc_pg074",
+    "title": "Letter R continued",
+    "chapter_id": "toc_pg074_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg074_sec002",
+    "href": "pg074_sec002.html",
+    "title": "Lesson 15: Letter S",
+    "chapter_id": "toc_pg074_sec002",
     "level": 3
   },
   {
     "section_id": "pg075_sec001",
     "href": "pg075_sec001.html",
-    "title": "Letter S continued; Lesson 16: Letter T",
-    "chapter_id": "toc_pg075",
+    "title": "Letter S continued",
+    "chapter_id": "toc_pg075_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg075_sec002",
+    "href": "pg075_sec002.html",
+    "title": "Lesson 16: Letter T",
+    "chapter_id": "toc_pg075_sec002",
     "level": 3
   },
   {
     "section_id": "pg076_sec001",
     "href": "pg076_sec001.html",
-    "title": "Letter T continued; Lesson 17: Letter V",
-    "chapter_id": "toc_pg076",
+    "title": "Letter T continued",
+    "chapter_id": "toc_pg076_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg076_sec002",
+    "href": "pg076_sec002.html",
+    "title": "Lesson 17: Letter V",
+    "chapter_id": "toc_pg076_sec002",
     "level": 3
   },
   {
     "section_id": "pg077_sec001",
     "href": "pg077_sec001.html",
-    "title": "Letter V continued; Lesson 18: Letter W",
-    "chapter_id": "toc_pg077",
+    "title": "Letter V continued",
+    "chapter_id": "toc_pg077_sec001",
+    "level": 3
+  },
+  {
+    "section_id": "pg077_sec002",
+    "href": "pg077_sec002.html",
+    "title": "Lesson 18: Letter W",
+    "chapter_id": "toc_pg077_sec002",
     "level": 3
   },
   {
     "section_id": "pg078_sec001",
     "href": "pg078_sec001.html",
     "title": "Letter W continued",
-    "chapter_id": "toc_pg078",
+    "chapter_id": "toc_pg078_sec001",
     "level": 3
   },
   {
     "section_id": "pg079_sec001",
     "href": "pg079_sec001.html",
     "title": "Lesson 19: Letter X",
-    "chapter_id": "toc_pg079",
+    "chapter_id": "toc_pg079_sec001",
     "level": 3
   },
   {
     "section_id": "pg080_sec001",
     "href": "pg080_sec001.html",
     "title": "Lesson 20: Letter Y",
-    "chapter_id": "toc_pg080",
+    "chapter_id": "toc_pg080_sec001",
     "level": 3
   },
   {
     "section_id": "pg081_sec001",
     "href": "pg081_sec001.html",
     "title": "Lesson 21: Letter Z",
-    "chapter_id": "toc_pg081",
+    "chapter_id": "toc_pg081_sec001",
     "level": 3
   },
   {
     "section_id": "pg082_sec001",
     "href": "pg082_sec001.html",
     "title": "Exercise 1: Name pictures - part 1",
-    "chapter_id": "toc_pg082",
+    "chapter_id": "toc_pg082_sec001",
     "level": 3
   },
   {
     "section_id": "pg083_sec001",
     "href": "pg083_sec001.html",
     "title": "Exercise 1: Name pictures - part 2",
-    "chapter_id": "toc_pg083",
+    "chapter_id": "toc_pg083_sec001",
     "level": 3
   },
   {
     "section_id": "pg084_sec001",
     "href": "pg084_sec001.html",
     "title": "Exercise 1: Name pictures - part 3",
-    "chapter_id": "toc_pg084",
+    "chapter_id": "toc_pg084_sec001",
     "level": 3
   },
   {
     "section_id": "pg085_sec001",
     "href": "pg085_sec001.html",
     "title": "Unit Six - Writing sentences - Lesson 1",
-    "chapter_id": "toc_pg085",
+    "chapter_id": "toc_pg085_sec001",
     "level": 1
   },
   {
     "section_id": "pg086_sec001",
     "href": "pg086_sec001.html",
     "title": "Exercise 1: Join words to form sentences",
-    "chapter_id": "toc_pg086",
+    "chapter_id": "toc_pg086_sec001",
     "level": 3
   },
   {
     "section_id": "pg087_sec001",
     "href": "pg087_sec001.html",
     "title": "Exercise 2: Write sentences and draw pictures",
-    "chapter_id": "toc_pg087",
+    "chapter_id": "toc_pg087_sec001",
     "level": 3
   },
   {
     "section_id": "pg088_sec001",
     "href": "pg088_sec001.html",
     "title": "Exercise 3: Rearrange words - part 1",
-    "chapter_id": "toc_pg088",
+    "chapter_id": "toc_pg088_sec001",
     "level": 3
   },
   {
     "section_id": "pg089_sec001",
     "href": "pg089_sec001.html",
     "title": "Exercise 3: Rearrange words - part 2",
-    "chapter_id": "toc_pg089",
+    "chapter_id": "toc_pg089_sec001",
     "level": 3
   },
   {
     "section_id": "pg090_sec001",
     "href": "pg090_sec001.html",
     "title": "Unit Seven - Digital Resources - Lesson 1",
-    "chapter_id": "toc_pg090",
+    "chapter_id": "toc_pg090_sec001",
     "level": 1
   },
   {
     "section_id": "pg091_sec001",
     "href": "pg091_sec001.html",
     "title": "Lesson 1 - Steps ii and iii",
-    "chapter_id": "toc_pg091",
+    "chapter_id": "toc_pg091_sec001",
     "level": 3
   },
   {
     "section_id": "pg092_sec001",
     "href": "pg092_sec001.html",
     "title": "Lesson 1 - Steps iv and v",
-    "chapter_id": "toc_pg092",
+    "chapter_id": "toc_pg092_sec001",
     "level": 3
   },
   {
     "section_id": "pg093_sec001",
     "href": "pg093_sec001.html",
     "title": "Lesson 1 - Steps vi and vii",
-    "chapter_id": "toc_pg093",
+    "chapter_id": "toc_pg093_sec001",
     "level": 3
   },
   {
     "section_id": "pg094_sec001",
     "href": "pg094_sec001.html",
     "title": "Lesson 2: Arrange letters in alphabetical order",
-    "chapter_id": "toc_pg094",
+    "chapter_id": "toc_pg094_sec001",
     "level": 3
   },
   {
     "section_id": "pg095_sec001",
     "href": "pg095_sec001.html",
     "title": "Lesson 2 - Steps iii and iv",
-    "chapter_id": "toc_pg095",
+    "chapter_id": "toc_pg095_sec001",
     "level": 3
   },
   {
     "section_id": "pg096_sec001",
     "href": "pg096_sec001.html",
     "title": "GCompris download link and QR code",
-    "chapter_id": "toc_pg096",
+    "chapter_id": "toc_pg096_sec001",
     "level": 3
   },
   {
