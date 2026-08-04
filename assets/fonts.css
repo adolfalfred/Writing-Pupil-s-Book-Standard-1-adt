@@ -27,6 +27,18 @@
   font-display: swap;
 }
 
+/*
+ * Model-only variant: capitals are calibrated from the shared baseline to the
+ * top black handwriting rule; lowercase outlines remain unchanged.
+ */
+@font-face {
+  font-family: "Sassoon Primary Handwriting";
+  src: url("./fonts/SassoonPrimaryHandwriting.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Exact modelling face used by the source book on its four-line examples. */
 @font-face {
   font-family: "Maandishi";

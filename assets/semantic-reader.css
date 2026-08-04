@@ -179,13 +179,14 @@ body {
 
 #content .handwriting-model-svg text {
   fill: #2f2929;
-  font-family: "Sassoon Primary", "Edu NSW ACT Foundation", "Maandishi", cursive;
+  font-family: "Sassoon Primary Handwriting", "Edu NSW ACT Foundation", "Maandishi", cursive;
   /*
    * The source writing baseline is the lower red line at 64.5/143 (45.1%).
-   * At 58% of the guide height, the source Sassoon teaching face places
-   * lowercase bodies between the two red lines while capitals, ascenders and
-   * descenders use their full zones. It also supplies the upright single-storey
-   * a and the baseline exit stroke on i used by the book's tracing examples.
+   * At 58% of the guide height, the model-only Sassoon face places lowercase
+   * bodies between the two red lines and its calibrated capitals on the top
+   * black rule. Ascenders and descenders retain the source proportions. The
+   * face also supplies the upright single-storey a and the baseline exit stroke
+   * on i used by the book's tracing examples.
    * Each SVG text element carries y="45%" so the baseline remains part of the
    * semantic page markup instead of depending on a browser-specific CSS y rule.
    */
