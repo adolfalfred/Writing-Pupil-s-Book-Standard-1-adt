@@ -179,11 +179,13 @@ body {
 
 #content .handwriting-model-svg text {
   fill: #2f2929;
-  font-family: "Edu NSW ACT Foundation", "Maandishi", "Sassoon Primary", cursive;
+  font-family: "Sassoon Primary", "Edu NSW ACT Foundation", "Maandishi", cursive;
   /*
    * The source writing baseline is the lower red line at 64.5/143 (45.1%).
-   * At 58% of the guide height, this font places lowercase bodies between the
-   * two red lines while capitals, ascenders and descenders use their full zones.
+   * At 58% of the guide height, the source Sassoon teaching face places
+   * lowercase bodies between the two red lines while capitals, ascenders and
+   * descenders use their full zones. It also supplies the upright single-storey
+   * a and the baseline exit stroke on i used by the book's tracing examples.
    * Each SVG text element carries y="45%" so the baseline remains part of the
    * semantic page markup instead of depending on a browser-specific CSS y rule.
    */
@@ -219,14 +221,14 @@ body {
   object-fit: contain;
 }
 
-.short-writing-input,
-.sentence-input {
+#content .short-writing-input,
+#content .sentence-input {
   width: 100%;
   border: 2px solid #84caac;
   border-radius: .85rem;
   background-color: #fff;
   color: #172033;
-  font-family: "Maandishi", "Sassoon Primary", cursive;
+  font-family: "Sassoon Primary", "Edu NSW ACT Foundation", "Maandishi", cursive;
   font-size: 1.65rem;
 }
 
@@ -251,8 +253,8 @@ body {
   padding: .8rem;
 }
 
-.word-model,
-.letter-tiles {
+#content .word-model,
+#content .letter-tiles {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -260,7 +262,7 @@ body {
   gap: .45rem;
   min-height: 3.2rem;
   margin-bottom: .65rem;
-  font-family: "Maandishi", "Sassoon Primary", cursive;
+  font-family: "Sassoon Primary", "Edu NSW ACT Foundation", "Maandishi", cursive;
   font-size: 1.7rem;
   font-weight: 700;
 }
@@ -410,9 +412,9 @@ body {
   color: #3d4a45;
 }
 
-.drawing-alternative-input {
+#content .drawing-alternative-input {
   margin-top: .45rem;
-  font-family: "Edu NSW ACT Foundation", "Maandishi", "Sassoon Primary", cursive;
+  font-family: "Sassoon Primary", "Edu NSW ACT Foundation", "Maandishi", cursive;
   font-synthesis: none;
   white-space: pre-wrap;
 }

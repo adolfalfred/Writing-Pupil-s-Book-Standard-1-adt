@@ -14,14 +14,14 @@
   font-display: swap;
 }
 
-/* Sassoon Primary is extracted from the source book supplied for this conversion. */
+/*
+ * Sassoon Primary is extracted from the source book supplied for this
+ * conversion. The teaching copy removes blank subset mappings so the browser
+ * can use the complete upright fallback for omitted glyphs such as X and Z.
+ */
 @font-face {
   font-family: "Sassoon Primary";
-  src:
-    local("Sassoon Primary"),
-    local("SassoonPrimary"),
-    url("./fonts/SassoonPrimary.woff2") format("woff2"),
-    url("./fonts/SassoonPrimary.ttf") format("truetype");
+  src: url("./fonts/SassoonPrimaryTeaching.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -36,11 +36,7 @@
   font-display: swap;
 }
 
-/*
- * Complete upright foundation-handwriting face for ruled models and keyboard
- * alternatives. Its cap-height to x-height ratio closely matches the source
- * four-line ruling without the italic-like slope of the TAS beginner face.
- */
+/* Complete upright fallback for glyphs omitted by the source PDF subset. */
 @font-face {
   font-family: "Edu NSW ACT Foundation";
   src: url("./fonts/EduNSWACTFoundation.ttf") format("truetype");
@@ -67,7 +63,7 @@ body {
 /* The whole book, including headings and answer fields, uses Sassoon Primary. */
 #content,
 #content * {
-  font-family: "Sassoon Primary", "SassoonPrimary", sans-serif;
+  font-family: "Sassoon Primary", "Atkinson Hyperlegible", sans-serif;
 }
 
 #content.container {
