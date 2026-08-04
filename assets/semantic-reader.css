@@ -515,6 +515,14 @@ body {
   padding-top: 1rem;
 }
 
+.sentence-exercise--text-only {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.sentence-exercise > div {
+  min-width: 0;
+}
+
 .sentence-exercise img {
   width: 100%;
   max-height: 12rem;
