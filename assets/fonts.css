@@ -37,12 +37,13 @@
 }
 
 /*
- * Complete beginner-handwriting face for ruled models and keyboard alternatives.
- * Its cap-height to x-height ratio closely matches the source four-line ruling.
+ * Complete upright foundation-handwriting face for ruled models and keyboard
+ * alternatives. Its cap-height to x-height ratio closely matches the source
+ * four-line ruling without the italic-like slope of the TAS beginner face.
  */
 @font-face {
-  font-family: "Edu TAS Beginner";
-  src: url("./fonts/EduTASBeginner.ttf") format("truetype");
+  font-family: "Edu NSW ACT Foundation";
+  src: url("./fonts/EduNSWACTFoundation.ttf") format("truetype");
   font-weight: 400 700;
   font-style: normal;
   font-display: swap;

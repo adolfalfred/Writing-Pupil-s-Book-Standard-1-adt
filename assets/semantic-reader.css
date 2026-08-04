@@ -179,7 +179,7 @@ body {
 
 #content .handwriting-model-svg text {
   fill: #2f2929;
-  font-family: "Edu TAS Beginner", "Maandishi", "Sassoon Primary", cursive;
+  font-family: "Edu NSW ACT Foundation", "Maandishi", "Sassoon Primary", cursive;
   /*
    * The source writing baseline is the lower red line at 64.5/143 (45.1%).
    * At 58% of the guide height, this font places lowercase bodies between the
@@ -412,7 +412,7 @@ body {
 
 .drawing-alternative-input {
   margin-top: .45rem;
-  font-family: "Edu TAS Beginner", "Maandishi", "Sassoon Primary", cursive;
+  font-family: "Edu NSW ACT Foundation", "Maandishi", "Sassoon Primary", cursive;
   font-synthesis: none;
   white-space: pre-wrap;
 }
