@@ -582,7 +582,7 @@ body {
 
 #content .front-matter-page,
 #content .front-matter-page * {
-  font-family: "Edu NSW ACT Foundation", "Atkinson Hyperlegible", Arial, sans-serif;
+  font-family: "Sassoon Primary", "Atkinson Hyperlegible", Arial, sans-serif;
 }
 
 .front-matter-page .page-footer {
@@ -600,7 +600,7 @@ body {
 #content .book-writing-title {
   margin: 0;
   color: #009b4e;
-  font-family: Arial, sans-serif;
+  font-family: "Sassoon Primary", "Atkinson Hyperlegible", Arial, sans-serif;
   font-size: clamp(4.4rem, 10vw, 7rem);
   font-weight: 800;
   letter-spacing: .02em;

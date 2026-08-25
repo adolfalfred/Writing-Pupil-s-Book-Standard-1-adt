@@ -16,12 +16,13 @@
 
 /*
  * Sassoon Primary is extracted from the source book supplied for this
- * conversion. The teaching copy removes blank subset mappings so the browser
- * can use the complete upright fallback for omitted glyphs such as X and Z.
+ * conversion. The web copy is a checksum-normalised rebuild of the source
+ * subset; this keeps Sassoon's outlines and lets the browser render or fall
+ * back correctly for every letter instead of dropping Q, X, q, or x.
  */
 @font-face {
   font-family: "Sassoon Primary";
-  src: url("./fonts/SassoonPrimaryTeaching.ttf") format("truetype");
+  src: url("./fonts/SassoonPrimaryWeb.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
