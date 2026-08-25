@@ -562,6 +562,322 @@ body {
   box-shadow: 0 14px 40px rgb(0 0 0 / 16%);
 }
 
+/* Front matter follows the printed book's quiet, single-page layout. */
+#content.front-matter-container {
+  max-width: 70rem;
+  padding-block: 2rem 5rem;
+  background: transparent;
+}
+
+.front-matter-page {
+  display: flex;
+  flex-direction: column;
+  width: min(100%, 52rem);
+  min-height: 72rem;
+  padding: 4rem 4.4rem 2.8rem;
+  background: #fff;
+  box-shadow: 0 14px 40px rgb(0 0 0 / 12%);
+  font-family: "Sassoon Primary", "Atkinson Hyperlegible", Arial, sans-serif;
+}
+
+#content .front-matter-page,
+#content .front-matter-page * {
+  font-family: "Edu NSW ACT Foundation", "Atkinson Hyperlegible", Arial, sans-serif;
+}
+
+.front-matter-page .page-footer {
+  margin-top: auto;
+  padding-top: 2rem;
+}
+
+.book-title-page {
+  display: grid;
+  justify-items: center;
+  gap: 1.65rem;
+  text-align: center;
+}
+
+#content .book-writing-title {
+  margin: 0;
+  color: #009b4e;
+  font-family: Arial, sans-serif;
+  font-size: clamp(4.4rem, 10vw, 7rem);
+  font-weight: 800;
+  letter-spacing: .02em;
+  line-height: .95;
+  text-shadow: 0 .12em .08em rgb(0 89 44 / 24%);
+}
+
+.book-handwriting-title {
+  width: min(100%, 34rem);
+}
+
+#content .book-handwriting-title__line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 5.1rem;
+  margin: .55rem 0;
+  background-image:
+    linear-gradient(to bottom,
+      transparent 0,
+      transparent 8%,
+      #9aa0a4 8%,
+      #9aa0a4 9%,
+      transparent 9%,
+      transparent 49%,
+      #ef9b9b 49%,
+      #ef9b9b 50%,
+      transparent 50%,
+      transparent 91%,
+      #9aa0a4 91%,
+      #9aa0a4 92%,
+      transparent 92%);
+  color: #211f20;
+  font-size: clamp(3.3rem, 7vw, 5rem);
+  line-height: 1;
+}
+
+.certificate-figure {
+  width: min(62%, 25rem);
+  margin: .25rem auto 0;
+}
+
+.certificate-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.book-title-publisher {
+  margin: 0;
+  color: #009b4e;
+  font-size: clamp(1.55rem, 3.6vw, 2.2rem);
+  font-weight: 800;
+}
+
+.publication-page {
+  color: #2a2728;
+  font-size: 1.45rem;
+  line-height: 1.35;
+}
+
+.publication-page p {
+  margin: 0;
+}
+
+.publication-copyright {
+  margin-bottom: 4.3rem !important;
+}
+
+.publication-editions {
+  margin-bottom: 4rem;
+}
+
+.publication-isbn {
+  margin-bottom: 4rem !important;
+}
+
+.publication-address {
+  margin-bottom: 3.7rem;
+  font-style: normal;
+}
+
+.publication-contacts {
+  display: grid;
+  grid-template-columns: 11.5rem minmax(0, 1fr);
+  margin: 0 0 4.5rem;
+}
+
+.publication-contacts dt,
+.publication-contacts dd {
+  margin: 0;
+}
+
+.publication-contacts a {
+  color: inherit;
+  overflow-wrap: anywhere;
+  text-decoration: none;
+}
+
+.publication-contacts a:hover,
+.publication-contacts a:focus-visible {
+  text-decoration: underline;
+}
+
+.publication-rights {
+  font-size: 1.25rem;
+  line-height: 1.32;
+  text-align: justify;
+}
+
+.book-front-heading {
+  margin: 0 0 1.3rem;
+  color: #009b4e;
+  font-size: clamp(2.25rem, 5vw, 3.15rem);
+  font-weight: 800;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.book-contents-title {
+  margin-bottom: .75rem;
+}
+
+.front-matter-page .contents-list {
+  gap: .12rem;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+}
+
+.front-matter-page .contents-heading {
+  margin: .48rem 0 0;
+  color: #242122;
+  font-size: 1.07rem;
+  font-weight: 800;
+}
+
+.front-matter-page .contents-link {
+  gap: .55rem;
+  min-height: 1.45rem;
+  border-bottom: 0;
+  padding: .07rem 0;
+  color: #242122;
+  font-size: 1rem;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.front-matter-page .contents-link > span:first-child {
+  display: grid;
+  grid-template-columns: auto minmax(1.5rem, 1fr);
+  align-items: end;
+  gap: .35rem;
+}
+
+.front-matter-page .contents-link > span:first-child::after {
+  content: "";
+  min-width: 1.5rem;
+  border-bottom: 2px dotted #6e6a6c;
+  transform: translateY(-.18rem);
+}
+
+.front-matter-page .contents-link--section {
+  color: #009b4e;
+  font-weight: 800;
+}
+
+.front-matter-page .contents-link--exercise {
+  padding-left: 1.7rem;
+  font-weight: 700;
+}
+
+.contents-position {
+  align-self: end;
+  min-width: 2.1rem;
+  text-align: right;
+}
+
+.front-matter-prose {
+  margin: 0;
+  font-size: 1.35rem;
+  line-height: 1.48;
+  text-align: justify;
+}
+
+.book-credit-grid {
+  display: grid;
+  grid-template-columns: 10.5rem minmax(0, 1fr);
+  gap: 2.1rem .8rem;
+  margin: 2.8rem 0 0;
+  font-size: 1.32rem;
+  line-height: 1.45;
+}
+
+.book-credit-grid dt {
+  font-weight: 800;
+}
+
+.book-credit-grid dd {
+  margin: 0;
+}
+
+.book-credit-grid--continuation {
+  margin-top: 0;
+}
+
+.acknowledgement-closing {
+  margin-top: 7rem;
+}
+
+.signature-block {
+  width: min(100%, 32rem);
+  margin-top: 7.5rem;
+  font-size: 1.45rem;
+  line-height: 1.25;
+}
+
+.signature-block p {
+  margin: 0;
+}
+
+.signature-image {
+  width: 9rem;
+  height: 4.2rem;
+  object-fit: contain;
+  object-position: left bottom;
+}
+
+.introduction-copy {
+  display: grid;
+  gap: 1.65rem;
+}
+
+.introduction-library {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: 1.4rem;
+  margin-top: 3.5rem;
+  font-size: 1.4rem;
+  line-height: 1.35;
+}
+
+.introduction-library a {
+  color: inherit;
+  font-size: 1.55rem;
+}
+
+.introduction-library img {
+  width: 7.5rem;
+  height: 7.5rem;
+}
+
+.introduction-library [data-audio-description-for] {
+  position: absolute !important;
+}
+
+.introduction-publisher {
+  margin-top: 2.2rem;
+  font-size: 1.45rem;
+  font-weight: 800;
+  text-align: right;
+}
+
+#content.cover-reader-content {
+  max-width: 52rem;
+  background: transparent;
+}
+
+.cover-only-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
 @media (max-width: 760px) {
   .lesson-card,
   .sentence-exercise {
@@ -588,6 +904,55 @@ body {
 
   .credit-grid {
     grid-template-columns: 1fr;
+  }
+
+  #content.front-matter-container {
+    padding: 0 0 5rem;
+  }
+
+  .front-matter-page {
+    min-height: 0;
+    padding: 2.4rem 1.35rem 2rem;
+    box-shadow: none;
+  }
+
+  .certificate-figure {
+    width: min(78%, 24rem);
+  }
+
+  .publication-page,
+  .front-matter-prose,
+  .book-credit-grid {
+    font-size: 1.08rem;
+  }
+
+  .publication-contacts,
+  .book-credit-grid,
+  .introduction-library {
+    grid-template-columns: 1fr;
+  }
+
+  .publication-contacts dt {
+    margin-top: .55rem;
+    font-weight: 800;
+  }
+
+  .publication-copyright,
+  .publication-editions,
+  .publication-isbn,
+  .publication-address,
+  .publication-contacts {
+    margin-bottom: 2.25rem !important;
+  }
+
+  .acknowledgement-closing,
+  .signature-block {
+    margin-top: 3.5rem;
+  }
+
+  .introduction-library img {
+    width: 6.5rem;
+    height: 6.5rem;
   }
 }
 
