@@ -299,6 +299,22 @@ body {
   pointer-events: none;
 }
 
+.trace-row-model-image {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  pointer-events: none;
+  user-select: none;
+}
+
+.trace-row-stack {
+  display: grid;
+  gap: 1rem;
+}
+
 #content .handwriting-model-svg text {
   fill: #2f2929;
   font-family: "Sassoon Primary Handwriting", "Edu NSW ACT Foundation", "Maandishi", cursive;

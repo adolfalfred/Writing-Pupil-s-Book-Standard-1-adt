@@ -7,8 +7,8 @@
   "sixKeyInputEnabled": false,
   "activationRule": "Do not enable six-key translation until a qualified Tanzanian Braille educator approves the Braille code and translation table.",
   "summary": {
-    "activities": 472,
-    "tactileResourceRequired": 178,
+    "activities": 528,
+    "tactileResourceRequired": 234,
     "noAdditionalTactileResourceRequired": 294,
     "pilotCandidates": 5
   },
@@ -846,7 +846,82 @@
       }
     },
     {
-      "activityId": "pg015-writing-0008",
+      "activityId": "pg015-writing-0008-row-01",
+      "href": "pg015_sec001.html",
+      "sectionId": "pg015_sec001",
+      "sectionTitle": "Unit Two - Writing or finger spelling vowel letters in lowercase - Lesson 1: Letter a",
+      "sourcePage": 15,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter a or write dot one.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg015-writing-0008-row-02",
+      "href": "pg015_sec001.html",
+      "sectionId": "pg015_sec001",
+      "sectionTitle": "Unit Two - Writing or finger spelling vowel letters in lowercase - Lesson 1: Letter a",
+      "sourcePage": 15,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter a or write dot one.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg015-writing-0008-row-03",
+      "href": "pg015_sec001.html",
+      "sectionId": "pg015_sec001",
+      "sectionTitle": "Unit Two - Writing or finger spelling vowel letters in lowercase - Lesson 1: Letter a",
+      "sourcePage": 15,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter a or write dot one.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg015-writing-0008-row-04",
       "href": "pg015_sec001.html",
       "sectionId": "pg015_sec001",
       "sectionTitle": "Unit Two - Writing or finger spelling vowel letters in lowercase - Lesson 1: Letter a",
@@ -921,7 +996,82 @@
       }
     },
     {
-      "activityId": "pg017-writing-0001",
+      "activityId": "pg017-writing-0001-row-01",
+      "href": "pg017_sec001.html",
+      "sectionId": "pg017_sec001",
+      "sectionTitle": "Letter e",
+      "sourcePage": 17,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter e or write dots one and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg017-writing-0001-row-02",
+      "href": "pg017_sec001.html",
+      "sectionId": "pg017_sec001",
+      "sectionTitle": "Letter e",
+      "sourcePage": 17,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter e or write dots one and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg017-writing-0001-row-03",
+      "href": "pg017_sec001.html",
+      "sectionId": "pg017_sec001",
+      "sectionTitle": "Letter e",
+      "sourcePage": 17,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter e or write dots one and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg017-writing-0001-row-04",
       "href": "pg017_sec001.html",
       "sectionId": "pg017_sec001",
       "sectionTitle": "Letter e",
@@ -996,7 +1146,57 @@
       }
     },
     {
-      "activityId": "pg018-writing-0001",
+      "activityId": "pg018-writing-0001-row-01",
+      "href": "pg018_sec001.html",
+      "sectionId": "pg018_sec001",
+      "sectionTitle": "Letter i",
+      "sourcePage": 18,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter i or write dots two and four.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg018-writing-0001-row-02",
+      "href": "pg018_sec001.html",
+      "sectionId": "pg018_sec001",
+      "sectionTitle": "Letter i",
+      "sourcePage": 18,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter i or write dots two and four.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg018-writing-0001-row-03",
       "href": "pg018_sec001.html",
       "sectionId": "pg018_sec001",
       "sectionTitle": "Letter i",
@@ -1071,7 +1271,57 @@
       }
     },
     {
-      "activityId": "pg019-writing-0001",
+      "activityId": "pg019-writing-0001-row-01",
+      "href": "pg019_sec001.html",
+      "sectionId": "pg019_sec001",
+      "sectionTitle": "Letter o",
+      "sourcePage": 19,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter o or write dots one, three, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg019-writing-0001-row-02",
+      "href": "pg019_sec001.html",
+      "sectionId": "pg019_sec001",
+      "sectionTitle": "Letter o",
+      "sourcePage": 19,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter o or write dots one, three, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg019-writing-0001-row-03",
       "href": "pg019_sec001.html",
       "sectionId": "pg019_sec001",
       "sectionTitle": "Letter o",
@@ -1146,7 +1396,57 @@
       }
     },
     {
-      "activityId": "pg020-writing-0001",
+      "activityId": "pg020-writing-0001-row-01",
+      "href": "pg020_sec001.html",
+      "sectionId": "pg020_sec001",
+      "sectionTitle": "Letter u",
+      "sourcePage": 20,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter u or write dots one, three, and six.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg020-writing-0001-row-02",
+      "href": "pg020_sec001.html",
+      "sectionId": "pg020_sec001",
+      "sectionTitle": "Letter u",
+      "sourcePage": 20,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter u or write dots one, three, and six.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg020-writing-0001-row-03",
       "href": "pg020_sec001.html",
       "sectionId": "pg020_sec001",
       "sectionTitle": "Letter u",
@@ -1221,7 +1521,32 @@
       }
     },
     {
-      "activityId": "pg021-writing-0008",
+      "activityId": "pg021-writing-0008-row-01",
+      "href": "pg021_sec001.html",
+      "sectionId": "pg021_sec001",
+      "sectionTitle": "Unit Three - Writing or finger spelling vowel letters in uppercase - Lesson 1: Letter A",
+      "sourcePage": 21,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter A or write dot six, then dot one.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg021-writing-0008-row-02",
       "href": "pg021_sec001.html",
       "sectionId": "pg021_sec001",
       "sectionTitle": "Unit Three - Writing or finger spelling vowel letters in uppercase - Lesson 1: Letter A",
@@ -1321,7 +1646,32 @@
       }
     },
     {
-      "activityId": "pg023-writing-0001",
+      "activityId": "pg023-writing-0001-row-01",
+      "href": "pg023_sec001.html",
+      "sectionId": "pg023_sec001",
+      "sectionTitle": "Letter E",
+      "sourcePage": 23,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter E or write dot six, then dots one and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg023-writing-0001-row-02",
       "href": "pg023_sec001.html",
       "sectionId": "pg023_sec001",
       "sectionTitle": "Letter E",
@@ -1396,7 +1746,7 @@
       }
     },
     {
-      "activityId": "pg024-writing-0001",
+      "activityId": "pg024-writing-0001-row-01",
       "href": "pg024_sec001.html",
       "sectionId": "pg024_sec001",
       "sectionTitle": "Letter I",
@@ -1471,7 +1821,32 @@
       }
     },
     {
-      "activityId": "pg025-writing-0001",
+      "activityId": "pg025-writing-0001-row-01",
+      "href": "pg025_sec001.html",
+      "sectionId": "pg025_sec001",
+      "sectionTitle": "Letter O",
+      "sourcePage": 25,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter O or write dot six, then dots one, three, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg025-writing-0001-row-02",
       "href": "pg025_sec001.html",
       "sectionId": "pg025_sec001",
       "sectionTitle": "Letter O",
@@ -1546,7 +1921,7 @@
       }
     },
     {
-      "activityId": "pg026-writing-0001",
+      "activityId": "pg026-writing-0001-row-01",
       "href": "pg026_sec001.html",
       "sectionId": "pg026_sec001",
       "sectionTitle": "Letter U",
@@ -1621,7 +1996,32 @@
       }
     },
     {
-      "activityId": "pg028-writing-0001",
+      "activityId": "pg028-writing-0001-row-01",
+      "href": "pg028_sec001.html",
+      "sectionId": "pg028_sec001",
+      "sectionTitle": "Letter b",
+      "sourcePage": 28,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter b or write dots one and two.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg028-writing-0001-row-02",
       "href": "pg028_sec001.html",
       "sectionId": "pg028_sec001",
       "sectionTitle": "Letter b",
@@ -1696,7 +2096,7 @@
       }
     },
     {
-      "activityId": "pg029-writing-0001",
+      "activityId": "pg029-writing-0001-row-01",
       "href": "pg029_sec001.html",
       "sectionId": "pg029_sec001",
       "sectionTitle": "Letter c",
@@ -1771,7 +2171,32 @@
       }
     },
     {
-      "activityId": "pg029-writing-0010",
+      "activityId": "pg029-writing-0010-row-01",
+      "href": "pg029_sec002.html",
+      "sectionId": "pg029_sec002",
+      "sectionTitle": "Lesson 3: Letter d",
+      "sourcePage": 29,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter d or write dots one, four, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg029-writing-0010-row-02",
       "href": "pg029_sec002.html",
       "sectionId": "pg029_sec002",
       "sectionTitle": "Lesson 3: Letter d",
@@ -1821,7 +2246,32 @@
       }
     },
     {
-      "activityId": "pg030-writing-0006",
+      "activityId": "pg030-writing-0006-row-01",
+      "href": "pg030_sec002.html",
+      "sectionId": "pg030_sec002",
+      "sectionTitle": "Lesson 4: Letter f",
+      "sourcePage": 30,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter f or write dots one, two, and four.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg030-writing-0006-row-02",
       "href": "pg030_sec002.html",
       "sectionId": "pg030_sec002",
       "sectionTitle": "Lesson 4: Letter f",
@@ -2046,7 +2496,32 @@
       }
     },
     {
-      "activityId": "pg032-writing-0004",
+      "activityId": "pg032-writing-0004-row-01",
+      "href": "pg032_sec001.html",
+      "sectionId": "pg032_sec001",
+      "sectionTitle": "Lesson 6: Letter g",
+      "sourcePage": 32,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter g or write dots one, two, four, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg032-writing-0004-row-02",
       "href": "pg032_sec001.html",
       "sectionId": "pg032_sec001",
       "sectionTitle": "Lesson 6: Letter g",
@@ -2096,7 +2571,32 @@
       }
     },
     {
-      "activityId": "pg032-writing-0011",
+      "activityId": "pg032-writing-0011-row-01",
+      "href": "pg032_sec002.html",
+      "sectionId": "pg032_sec002",
+      "sectionTitle": "Lesson 7: Letter h",
+      "sourcePage": 32,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter h or write dots one, two, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg032-writing-0011-row-02",
       "href": "pg032_sec002.html",
       "sectionId": "pg032_sec002",
       "sectionTitle": "Lesson 7: Letter h",
@@ -2146,7 +2646,32 @@
       }
     },
     {
-      "activityId": "pg033-writing-0006",
+      "activityId": "pg033-writing-0006-row-01",
+      "href": "pg033_sec002.html",
+      "sectionId": "pg033_sec002",
+      "sectionTitle": "Lesson 8: Letter j",
+      "sourcePage": 33,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter j or write dots two, four, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg033-writing-0006-row-02",
       "href": "pg033_sec002.html",
       "sectionId": "pg033_sec002",
       "sectionTitle": "Lesson 8: Letter j",
@@ -2221,7 +2746,32 @@
       }
     },
     {
-      "activityId": "pg034-writing-0006",
+      "activityId": "pg034-writing-0006-row-01",
+      "href": "pg034_sec001.html",
+      "sectionId": "pg034_sec001",
+      "sectionTitle": "Lesson 9: Letter k",
+      "sourcePage": 34,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter k or write dots one and three.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg034-writing-0006-row-02",
       "href": "pg034_sec001.html",
       "sectionId": "pg034_sec001",
       "sectionTitle": "Lesson 9: Letter k",
@@ -2296,7 +2846,32 @@
       }
     },
     {
-      "activityId": "pg035-writing-0006",
+      "activityId": "pg035-writing-0006-row-01",
+      "href": "pg035_sec001.html",
+      "sectionId": "pg035_sec001",
+      "sectionTitle": "Lesson 10: Letter l",
+      "sourcePage": 35,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter l or write dots one, two, and three.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg035-writing-0006-row-02",
       "href": "pg035_sec001.html",
       "sectionId": "pg035_sec001",
       "sectionTitle": "Lesson 10: Letter l",
@@ -2371,7 +2946,32 @@
       }
     },
     {
-      "activityId": "pg036-writing-0005",
+      "activityId": "pg036-writing-0005-row-01",
+      "href": "pg036_sec001.html",
+      "sectionId": "pg036_sec001",
+      "sectionTitle": "Lesson 11: Letter m",
+      "sourcePage": 36,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter m or write dots one, three, and four.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg036-writing-0005-row-02",
       "href": "pg036_sec001.html",
       "sectionId": "pg036_sec001",
       "sectionTitle": "Lesson 11: Letter m",
@@ -2896,7 +3496,32 @@
       }
     },
     {
-      "activityId": "pg039-writing-0001",
+      "activityId": "pg039-writing-0001-row-01",
+      "href": "pg039_sec001.html",
+      "sectionId": "pg039_sec001",
+      "sectionTitle": "Letter n",
+      "sourcePage": 39,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter n or write dots one, three, four, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg039-writing-0001-row-02",
       "href": "pg039_sec001.html",
       "sectionId": "pg039_sec001",
       "sectionTitle": "Letter n",
@@ -2971,7 +3596,32 @@
       }
     },
     {
-      "activityId": "pg040-writing-0001",
+      "activityId": "pg040-writing-0001-row-01",
+      "href": "pg040_sec001.html",
+      "sectionId": "pg040_sec001",
+      "sectionTitle": "Letter p",
+      "sourcePage": 40,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter p or write dots one, two, three, and four.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg040-writing-0001-row-02",
       "href": "pg040_sec001.html",
       "sectionId": "pg040_sec001",
       "sectionTitle": "Letter p",
@@ -3046,7 +3696,32 @@
       }
     },
     {
-      "activityId": "pg041-writing-0001",
+      "activityId": "pg041-writing-0001-row-01",
+      "href": "pg041_sec001.html",
+      "sectionId": "pg041_sec001",
+      "sectionTitle": "Letter q",
+      "sourcePage": 41,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter q or write dots one, two, three, four, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg041-writing-0001-row-02",
       "href": "pg041_sec001.html",
       "sectionId": "pg041_sec001",
       "sectionTitle": "Letter q",
@@ -3096,7 +3771,32 @@
       }
     },
     {
-      "activityId": "pg041-writing-0008",
+      "activityId": "pg041-writing-0008-row-01",
+      "href": "pg041_sec002.html",
+      "sectionId": "pg041_sec002",
+      "sectionTitle": "Lesson 16: Letter r",
+      "sourcePage": 41,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter r or write dots one, two, three, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg041-writing-0008-row-02",
       "href": "pg041_sec002.html",
       "sectionId": "pg041_sec002",
       "sectionTitle": "Lesson 16: Letter r",
@@ -3171,7 +3871,32 @@
       }
     },
     {
-      "activityId": "pg042-writing-0008",
+      "activityId": "pg042-writing-0008-row-01",
+      "href": "pg042_sec002.html",
+      "sectionId": "pg042_sec002",
+      "sectionTitle": "Lesson 17: Letter s",
+      "sourcePage": 42,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter s or write dots two, three, and four.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg042-writing-0008-row-02",
       "href": "pg042_sec002.html",
       "sectionId": "pg042_sec002",
       "sectionTitle": "Lesson 17: Letter s",
@@ -3246,7 +3971,32 @@
       }
     },
     {
-      "activityId": "pg043-writing-0008",
+      "activityId": "pg043-writing-0008-row-01",
+      "href": "pg043_sec002.html",
+      "sectionId": "pg043_sec002",
+      "sectionTitle": "Lesson 18: Letter t",
+      "sourcePage": 43,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter t or write dots two, three, four, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg043-writing-0008-row-02",
       "href": "pg043_sec002.html",
       "sectionId": "pg043_sec002",
       "sectionTitle": "Lesson 18: Letter t",
@@ -4521,7 +5271,32 @@
       }
     },
     {
-      "activityId": "pg047-writing-0005",
+      "activityId": "pg047-writing-0005-row-01",
+      "href": "pg047_sec001.html",
+      "sectionId": "pg047_sec001",
+      "sectionTitle": "Lesson 20: Letter v",
+      "sourcePage": 47,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter v or write dots one, two, three, and six.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg047-writing-0005-row-02",
       "href": "pg047_sec001.html",
       "sectionId": "pg047_sec001",
       "sectionTitle": "Lesson 20: Letter v",
@@ -4596,7 +5371,32 @@
       }
     },
     {
-      "activityId": "pg048-writing-0005",
+      "activityId": "pg048-writing-0005-row-01",
+      "href": "pg048_sec001.html",
+      "sectionId": "pg048_sec001",
+      "sectionTitle": "Lesson 21: Letter w",
+      "sourcePage": 48,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter w or write dots two, four, five, and six.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg048-writing-0005-row-02",
       "href": "pg048_sec001.html",
       "sectionId": "pg048_sec001",
       "sectionTitle": "Lesson 21: Letter w",
@@ -4671,7 +5471,32 @@
       }
     },
     {
-      "activityId": "pg049-writing-0005",
+      "activityId": "pg049-writing-0005-row-01",
+      "href": "pg049_sec001.html",
+      "sectionId": "pg049_sec001",
+      "sectionTitle": "Lesson 22: Letter x",
+      "sourcePage": 49,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter x or write dots one, three, four, and six.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg049-writing-0005-row-02",
       "href": "pg049_sec001.html",
       "sectionId": "pg049_sec001",
       "sectionTitle": "Lesson 22: Letter x",
@@ -4746,7 +5571,32 @@
       }
     },
     {
-      "activityId": "pg050-writing-0005",
+      "activityId": "pg050-writing-0005-row-01",
+      "href": "pg050_sec001.html",
+      "sectionId": "pg050_sec001",
+      "sectionTitle": "Lesson 23: Letter y",
+      "sourcePage": 50,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter y or write dots one, three, four, five, and six.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg050-writing-0005-row-02",
       "href": "pg050_sec001.html",
       "sectionId": "pg050_sec001",
       "sectionTitle": "Lesson 23: Letter y",
@@ -4796,7 +5646,32 @@
       }
     },
     {
-      "activityId": "pg051-writing-0004",
+      "activityId": "pg051-writing-0004-row-01",
+      "href": "pg051_sec001.html",
+      "sectionId": "pg051_sec001",
+      "sectionTitle": "Lesson 24: Letter z",
+      "sourcePage": 51,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the letter z or write dots one, three, five, and six.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg051-writing-0004-row-02",
       "href": "pg051_sec001.html",
       "sectionId": "pg051_sec001",
       "sectionTitle": "Lesson 24: Letter z",
@@ -6096,7 +6971,32 @@
       }
     },
     {
-      "activityId": "pg058-writing-0006",
+      "activityId": "pg058-writing-0006-row-01",
+      "href": "pg058_sec001.html",
+      "sectionId": "pg058_sec001",
+      "sectionTitle": "Unit Five - Writing or finger spelling consonant letters in uppercase - Lesson 1: Letter B",
+      "sourcePage": 58,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter B or write dot six, then dots one and two.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg058-writing-0006-row-02",
       "href": "pg058_sec001.html",
       "sectionId": "pg058_sec001",
       "sectionTitle": "Unit Five - Writing or finger spelling consonant letters in uppercase - Lesson 1: Letter B",
@@ -6321,7 +7221,32 @@
       }
     },
     {
-      "activityId": "pg060-writing-0001",
+      "activityId": "pg060-writing-0001-row-01",
+      "href": "pg060_sec001.html",
+      "sectionId": "pg060_sec001",
+      "sectionTitle": "Letter C",
+      "sourcePage": 60,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter C or write dot six, then dots one and four.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg060-writing-0001-row-02",
       "href": "pg060_sec001.html",
       "sectionId": "pg060_sec001",
       "sectionTitle": "Letter C",
@@ -6596,7 +7521,32 @@
       }
     },
     {
-      "activityId": "pg061-writing-0004",
+      "activityId": "pg061-writing-0004-row-01",
+      "href": "pg061_sec001.html",
+      "sectionId": "pg061_sec001",
+      "sectionTitle": "Lesson 3: Letter D",
+      "sourcePage": 61,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter D or write dot six, then dots one, four, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg061-writing-0004-row-02",
       "href": "pg061_sec001.html",
       "sectionId": "pg061_sec001",
       "sectionTitle": "Lesson 3: Letter D",
@@ -6796,7 +7746,32 @@
       }
     },
     {
-      "activityId": "pg062-writing-0006",
+      "activityId": "pg062-writing-0006-row-01",
+      "href": "pg062_sec001.html",
+      "sectionId": "pg062_sec001",
+      "sectionTitle": "Lesson 4: Letter F",
+      "sourcePage": 62,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter F or write dot six, then dots one, two, and four.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg062-writing-0006-row-02",
       "href": "pg062_sec001.html",
       "sectionId": "pg062_sec001",
       "sectionTitle": "Lesson 4: Letter F",
@@ -6971,7 +7946,32 @@
       }
     },
     {
-      "activityId": "pg063-writing-0009",
+      "activityId": "pg063-writing-0009-row-01",
+      "href": "pg063_sec002.html",
+      "sectionId": "pg063_sec002",
+      "sectionTitle": "Lesson 5: Letter G",
+      "sourcePage": 63,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter G or write dot six, then dots one, two, four, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg063-writing-0009-row-02",
       "href": "pg063_sec002.html",
       "sectionId": "pg063_sec002",
       "sectionTitle": "Lesson 5: Letter G",
@@ -7171,7 +8171,32 @@
       }
     },
     {
-      "activityId": "pg064-writing-0010",
+      "activityId": "pg064-writing-0010-row-01",
+      "href": "pg064_sec002.html",
+      "sectionId": "pg064_sec002",
+      "sectionTitle": "Lesson 6: Letter H",
+      "sourcePage": 64,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter H or write dot six, then dots one, two, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg064-writing-0010-row-02",
       "href": "pg064_sec002.html",
       "sectionId": "pg064_sec002",
       "sectionTitle": "Lesson 6: Letter H",
@@ -7396,7 +8421,32 @@
       }
     },
     {
-      "activityId": "pg065-writing-0011",
+      "activityId": "pg065-writing-0011-row-01",
+      "href": "pg065_sec002.html",
+      "sectionId": "pg065_sec002",
+      "sectionTitle": "Lesson 7: Letter J",
+      "sourcePage": 65,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter J or write dot six, then dots two, four, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg065-writing-0011-row-02",
       "href": "pg065_sec002.html",
       "sectionId": "pg065_sec002",
       "sectionTitle": "Lesson 7: Letter J",
@@ -7621,7 +8671,32 @@
       }
     },
     {
-      "activityId": "pg066-writing-0011",
+      "activityId": "pg066-writing-0011-row-01",
+      "href": "pg066_sec002.html",
+      "sectionId": "pg066_sec002",
+      "sectionTitle": "Lesson 8: Letter K",
+      "sourcePage": 66,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter K or write dot six, then dots one and three.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg066-writing-0011-row-02",
       "href": "pg066_sec002.html",
       "sectionId": "pg066_sec002",
       "sectionTitle": "Lesson 8: Letter K",
@@ -7846,7 +8921,32 @@
       }
     },
     {
-      "activityId": "pg067-writing-0012",
+      "activityId": "pg067-writing-0012-row-01",
+      "href": "pg067_sec002.html",
+      "sectionId": "pg067_sec002",
+      "sectionTitle": "Lesson 9: Letter L",
+      "sourcePage": 67,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter L or write dot six, then dots one, two, and three.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg067-writing-0012-row-02",
       "href": "pg067_sec002.html",
       "sectionId": "pg067_sec002",
       "sectionTitle": "Lesson 9: Letter L",
@@ -8046,7 +9146,32 @@
       }
     },
     {
-      "activityId": "pg068-writing-0014",
+      "activityId": "pg068-writing-0014-row-01",
+      "href": "pg068_sec002.html",
+      "sectionId": "pg068_sec002",
+      "sectionTitle": "Lesson 10: Letter M",
+      "sourcePage": 68,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter M or write dot six, then dots one, three, and four.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg068-writing-0014-row-02",
       "href": "pg068_sec002.html",
       "sectionId": "pg068_sec002",
       "sectionTitle": "Lesson 10: Letter M",
@@ -8246,7 +9371,32 @@
       }
     },
     {
-      "activityId": "pg069-writing-0014",
+      "activityId": "pg069-writing-0014-row-01",
+      "href": "pg069_sec002.html",
+      "sectionId": "pg069_sec002",
+      "sectionTitle": "Lesson 11: Letter N",
+      "sourcePage": 69,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter N or write dot six, then dots one, three, four, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg069-writing-0014-row-02",
       "href": "pg069_sec002.html",
       "sectionId": "pg069_sec002",
       "sectionTitle": "Lesson 11: Letter N",
@@ -8471,7 +9621,32 @@
       }
     },
     {
-      "activityId": "pg071-writing-0001",
+      "activityId": "pg071-writing-0001-row-01",
+      "href": "pg071_sec001.html",
+      "sectionId": "pg071_sec001",
+      "sectionTitle": "Letter P",
+      "sourcePage": 71,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter P or write dot six, then dots one, two, three, and four.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg071-writing-0001-row-02",
       "href": "pg071_sec001.html",
       "sectionId": "pg071_sec001",
       "sectionTitle": "Letter P",
@@ -8771,7 +9946,32 @@
       }
     },
     {
-      "activityId": "pg072-writing-0006",
+      "activityId": "pg072-writing-0006-row-01",
+      "href": "pg072_sec001.html",
+      "sectionId": "pg072_sec001",
+      "sectionTitle": "Lesson 13: Letter Q",
+      "sourcePage": 72,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter Q or write dot six, then dots one, two, three, four, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg072-writing-0006-row-02",
       "href": "pg072_sec001.html",
       "sectionId": "pg072_sec001",
       "sectionTitle": "Lesson 13: Letter Q",
@@ -8896,7 +10096,32 @@
       }
     },
     {
-      "activityId": "pg073-writing-0008",
+      "activityId": "pg073-writing-0008-row-01",
+      "href": "pg073_sec002.html",
+      "sectionId": "pg073_sec002",
+      "sectionTitle": "Lesson 14: Letter R",
+      "sourcePage": 73,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter R or write dot six, then dots one, two, three, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg073-writing-0008-row-02",
       "href": "pg073_sec002.html",
       "sectionId": "pg073_sec002",
       "sectionTitle": "Lesson 14: Letter R",
@@ -9171,7 +10396,32 @@
       }
     },
     {
-      "activityId": "pg074-writing-0013",
+      "activityId": "pg074-writing-0013-row-01",
+      "href": "pg074_sec002.html",
+      "sectionId": "pg074_sec002",
+      "sectionTitle": "Lesson 15: Letter S",
+      "sourcePage": 74,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter S or write dot six, then dots two, three, and four.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg074-writing-0013-row-02",
       "href": "pg074_sec002.html",
       "sectionId": "pg074_sec002",
       "sectionTitle": "Lesson 15: Letter S",
@@ -9396,7 +10646,32 @@
       }
     },
     {
-      "activityId": "pg075-writing-0012",
+      "activityId": "pg075-writing-0012-row-01",
+      "href": "pg075_sec002.html",
+      "sectionId": "pg075_sec002",
+      "sectionTitle": "Lesson 16: Letter T",
+      "sourcePage": 75,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter T or write dot six, then dots two, three, four, and five.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg075-writing-0012-row-02",
       "href": "pg075_sec002.html",
       "sectionId": "pg075_sec002",
       "sectionTitle": "Lesson 16: Letter T",
@@ -9646,7 +10921,32 @@
       }
     },
     {
-      "activityId": "pg076-writing-0014",
+      "activityId": "pg076-writing-0014-row-01",
+      "href": "pg076_sec002.html",
+      "sectionId": "pg076_sec002",
+      "sectionTitle": "Lesson 17: Letter V",
+      "sourcePage": 76,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter V or write dot six, then dots one, two, three, and six.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg076-writing-0014-row-02",
       "href": "pg076_sec002.html",
       "sectionId": "pg076_sec002",
       "sectionTitle": "Lesson 17: Letter V",
@@ -9846,7 +11146,32 @@
       }
     },
     {
-      "activityId": "pg078-writing-0001",
+      "activityId": "pg078-writing-0001-row-01",
+      "href": "pg078_sec001.html",
+      "sectionId": "pg078_sec001",
+      "sectionTitle": "Letter W",
+      "sourcePage": 78,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter W or write dot six, then dots two, four, five, and six.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg078-writing-0001-row-02",
       "href": "pg078_sec001.html",
       "sectionId": "pg078_sec001",
       "sectionTitle": "Letter W",
@@ -10046,7 +11371,32 @@
       }
     },
     {
-      "activityId": "pg079-writing-0004",
+      "activityId": "pg079-writing-0004-row-01",
+      "href": "pg079_sec001.html",
+      "sectionId": "pg079_sec001",
+      "sectionTitle": "Lesson 19: Letter X",
+      "sourcePage": 79,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter X or write dot six, then dots one, three, four, and six.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg079-writing-0004-row-02",
       "href": "pg079_sec001.html",
       "sectionId": "pg079_sec001",
       "sectionTitle": "Lesson 19: Letter X",
@@ -10246,7 +11596,32 @@
       }
     },
     {
-      "activityId": "pg080-writing-0005",
+      "activityId": "pg080-writing-0005-row-01",
+      "href": "pg080_sec001.html",
+      "sectionId": "pg080_sec001",
+      "sectionTitle": "Lesson 20: Letter Y",
+      "sourcePage": 80,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter Y or write dot six, then dots one, three, four, five, and six.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg080-writing-0005-row-02",
       "href": "pg080_sec001.html",
       "sectionId": "pg080_sec001",
       "sectionTitle": "Lesson 20: Letter Y",
@@ -10421,7 +11796,32 @@
       }
     },
     {
-      "activityId": "pg081-writing-0004",
+      "activityId": "pg081-writing-0004-row-01",
+      "href": "pg081_sec001.html",
+      "sectionId": "pg081_sec001",
+      "sectionTitle": "Lesson 21: Letter Z",
+      "sourcePage": 81,
+      "taskType": "letter-tracing",
+      "expectedResponseType": "text",
+      "inclusiveInstruction": "Trace the uppercase letter Z or write dot six, then dots one, three, five, and six.",
+      "tactileResourceRequired": true,
+      "nativeBrailleInputAvailable": true,
+      "sixKeyPilotCandidate": false,
+      "brailleCode": null,
+      "translationTable": null,
+      "reviewStatus": "pending-qualified-tanzanian-braille-educator-review",
+      "educatorReview": {
+        "approvedInclusiveInstruction": null,
+        "approvedBrailleCode": null,
+        "approvedTranslationTable": null,
+        "tactileResourceDecision": null,
+        "reviewer": null,
+        "reviewDate": null,
+        "notes": null
+      }
+    },
+    {
+      "activityId": "pg081-writing-0004-row-02",
       "href": "pg081_sec001.html",
       "sectionId": "pg081_sec001",
       "sectionTitle": "Lesson 21: Letter Z",
