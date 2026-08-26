@@ -646,14 +646,6 @@ body {
   object-fit: contain;
 }
 
-.page-footer {
-  margin-top: 2rem;
-  color: var(--book-green-dark);
-  font-size: 1.15rem;
-  font-weight: 800;
-  text-align: center;
-}
-
 .title-page-image {
   width: min(100%, 52rem);
   margin: 0 auto;
@@ -684,11 +676,6 @@ body {
   font-family: "Sassoon Primary", "Atkinson Hyperlegible", Arial, sans-serif;
 }
 
-.front-matter-page .page-footer {
-  margin-top: auto;
-  padding-top: 2rem;
-}
-
 .book-title-page {
   display: grid;
   justify-items: center;
@@ -709,6 +696,34 @@ body {
 
 .book-handwriting-title {
   width: min(100%, 34rem);
+  background-image:
+    linear-gradient(to bottom,
+      #9aa0a4 0,
+      #9aa0a4 1px,
+      transparent 1px,
+      transparent 18.5%,
+      #ef9b9b 18.5%,
+      #ef9b9b calc(18.5% + 1px),
+      transparent calc(18.5% + 1px),
+      transparent 31%,
+      #ef9b9b 31%,
+      #ef9b9b calc(31% + 1px),
+      transparent calc(31% + 1px),
+      transparent 50%,
+      #9aa0a4 50%,
+      #9aa0a4 calc(50% + 1px),
+      transparent calc(50% + 1px),
+      transparent 68.5%,
+      #ef9b9b 68.5%,
+      #ef9b9b calc(68.5% + 1px),
+      transparent calc(68.5% + 1px),
+      transparent 81%,
+      #ef9b9b 81%,
+      #ef9b9b calc(81% + 1px),
+      transparent calc(81% + 1px),
+      transparent calc(100% - 1px),
+      #9aa0a4 calc(100% - 1px),
+      #9aa0a4 100%);
 }
 
 #content .book-handwriting-title__line {
@@ -716,23 +731,11 @@ body {
   align-items: center;
   justify-content: center;
   height: 5.1rem;
-  margin: .55rem 0;
-  background-image:
-    linear-gradient(to bottom,
-      transparent 0,
-      transparent 8%,
-      #9aa0a4 8%,
-      #9aa0a4 9%,
-      transparent 9%,
-      transparent 49%,
-      #ef9b9b 49%,
-      #ef9b9b 50%,
-      transparent 50%,
-      transparent 91%,
-      #9aa0a4 91%,
-      #9aa0a4 92%,
-      transparent 92%);
+  margin: 0;
   color: #211f20;
+  font-family: "Sassoon Primary Handwriting", "Sassoon Primary", cursive;
+  font-style: normal;
+  font-synthesis: none;
   font-size: clamp(3.3rem, 7vw, 5rem);
   line-height: 1;
 }
@@ -824,7 +827,7 @@ body {
 }
 
 .front-matter-page .contents-list {
-  gap: .12rem;
+  gap: 0;
   margin: 0;
   padding: 0;
   border: 0;
@@ -832,20 +835,20 @@ body {
 }
 
 .front-matter-page .contents-heading {
-  margin: .48rem 0 0;
+  margin: .55rem 0 .08rem;
   color: #242122;
-  font-size: 1.07rem;
+  font-size: 1.35rem;
   font-weight: 800;
 }
 
 .front-matter-page .contents-link {
-  gap: .55rem;
-  min-height: 1.45rem;
+  gap: .65rem;
+  min-height: 1.72rem;
   border-bottom: 0;
-  padding: .07rem 0;
+  padding: 0;
   color: #242122;
-  font-size: 1rem;
-  line-height: 1.25;
+  font-size: 1.25rem;
+  line-height: 1.3;
   text-decoration: none;
 }
 
@@ -903,17 +906,13 @@ body {
   margin: 0;
 }
 
-.book-credit-grid--continuation {
-  margin-top: 0;
-}
-
 .acknowledgement-closing {
-  margin-top: 7rem;
+  margin-top: 3rem;
 }
 
 .signature-block {
   width: min(100%, 32rem);
-  margin-top: 7.5rem;
+  margin-top: 3rem;
   font-size: 1.45rem;
   line-height: 1.25;
 }
