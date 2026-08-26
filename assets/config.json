@@ -1,6 +1,6 @@
 {
   "title": "Writing Pupil's Book Standard 1",
-  "bundleVersion": "9",
+  "bundleVersion": "10",
   "languages": {
     "available": [
       "en-GB"
@@ -27,6 +27,11 @@
     "enabled": true,
     "implementationPhase": "native-baseline-and-educator-review-manifest",
     "nativeTextInput": true,
+    "drawingOnlyTaskTypes": [
+      "letter-pattern",
+      "object-drawing",
+      "pattern"
+    ],
     "sixKeyInput": false,
     "translationTable": null,
     "translationStatus": "awaiting-qualified-tanzanian-braille-educator-review",
