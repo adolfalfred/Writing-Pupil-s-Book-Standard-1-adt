@@ -115,6 +115,63 @@ body {
   margin-top: .7rem;
 }
 
+.digital-resource-callout {
+  display: grid;
+  grid-template-columns: minmax(10rem, 15rem) minmax(0, 1fr);
+  align-items: center;
+  width: min(100%, 52rem);
+  margin: 2.75rem auto 1rem;
+}
+
+.digital-resource-callout__character {
+  position: relative;
+  z-index: 2;
+  margin: 0;
+}
+
+.digital-resource-callout__character-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.digital-resource-callout__bubble {
+  position: relative;
+  z-index: 1;
+  margin-left: .65rem;
+  border-radius: 1.7rem;
+  background: #fff77c;
+  padding: 1.35rem 1.8rem;
+  color: #241f20;
+  font-size: clamp(1.4rem, 2.8vw, 2rem);
+  line-height: 1.35;
+  text-align: center;
+}
+
+.digital-resource-callout__bubble::before {
+  position: absolute;
+  top: 43%;
+  left: -4rem;
+  width: 0;
+  height: 0;
+  border-top: 1.35rem solid transparent;
+  border-right: 4.2rem solid #fff77c;
+  border-bottom: 1.35rem solid transparent;
+  content: "";
+}
+
+.digital-resource-callout__reference {
+  color: inherit;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.digital-resource-callout__reference:hover,
+.digital-resource-callout__reference:focus-visible {
+  text-decoration: underline;
+}
+
 .lesson-card,
 .activity-card,
 .content-card,
@@ -989,6 +1046,24 @@ body {
     top: auto;
     margin-top: 0;
     transform: none;
+  }
+
+  .digital-resource-callout {
+    grid-template-columns: minmax(7rem, 10rem) minmax(0, 1fr);
+  }
+
+  .digital-resource-callout__bubble {
+    margin-left: .35rem;
+    border-radius: 1.25rem;
+    padding: 1rem;
+    font-size: clamp(1.05rem, 4.5vw, 1.35rem);
+  }
+
+  .digital-resource-callout__bubble::before {
+    left: -2.5rem;
+    border-top-width: 1rem;
+    border-right-width: 2.7rem;
+    border-bottom-width: 1rem;
   }
 
   .unit-character-speech::before {
