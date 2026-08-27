@@ -136,5 +136,8 @@
       <file href="pg096_sec001.html"/>
       <file href="back_cover.html"/>
       <file href="content/accessibility/braille-activity-manifest.json"/>
+      <file href="assets/mobile-sheet-drag.css"/>
+      <file href="assets/mobile-sheet-drag.js"/>
+      <file href="assets/media-playback-independence.js"/>
     </resource></resources>
 </manifest>

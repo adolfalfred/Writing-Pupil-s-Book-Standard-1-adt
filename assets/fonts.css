@@ -676,115 +676,14 @@ ul.source-speech-bubble {
   }
 }
 
-/* The shared reader dock is wider than a small phone in its desktop layout.
-   Reflow it into two touch-friendly rows and reserve enough scroll space for
-   both the dock and the floating activity action. */
-body:has(#nav-container [class~="bottom-18"]) main {
-  padding-bottom: 7rem;
-}
-
-@media (max-width: 699px) {
+/* The shared runtime owns the one-row mobile dock and its accessibility
+   sheet. Book CSS only reserves scroll space beneath the fixed controls. */
+@media (max-width: 767.98px) {
   main {
-    padding-bottom: 7rem;
+    padding-bottom: calc(var(--dock-height, 4rem) + 1rem + env(safe-area-inset-bottom));
   }
 
   body:has(#nav-container [class~="bottom-18"]) main {
-    padding-bottom: 11rem;
-  }
-
-  #nav-container [role="group"][aria-label="Reader controls"] {
-    display: grid !important;
-    grid-template-areas:
-      "menu pager"
-      "tools tools";
-    grid-template-columns: minmax(0, 1fr) auto;
-    gap: 0.25rem 0.5rem !important;
-    padding: 0.25rem 0.5rem !important;
-  }
-
-  #nav-container [role="group"][aria-label="Reader controls"] > div:nth-child(1) {
-    grid-area: pager;
-    min-width: 0;
-  }
-
-  #nav-container [role="group"][aria-label="Reader controls"] > div:nth-child(2) {
-    grid-area: menu;
-    min-width: 0;
-    overflow: hidden;
-  }
-
-  #nav-container [role="group"][aria-label="Reader controls"] > div:nth-child(2) > button {
-    width: 100% !important;
-    min-width: 0 !important;
-    max-width: none !important;
-    padding-right: 0.5rem !important;
-    padding-left: 0.5rem !important;
-  }
-
-  #nav-container [role="group"][aria-label="Reader controls"] > div:nth-child(3) {
-    grid-area: tools;
-    width: 100%;
-    min-width: 0 !important;
-    justify-content: space-around !important;
-    gap: 0.25rem !important;
-    padding-left: 0 !important;
-  }
-
-  #nav-container [class~="bottom-18"] {
-    bottom: 7.25rem !important;
-  }
-
-  #interface-container [role="dialog"]:has([aria-label="Read aloud controls"]) {
-    width: calc(100vw - 2rem) !important;
-    max-width: calc(100vw - 2rem) !important;
-  }
-
-  #interface-container [aria-label="Read aloud controls"] {
-    display: grid !important;
-    width: 100% !important;
-    max-width: none !important;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 0.25rem !important;
-  }
-
-  #interface-container [aria-label="Read aloud controls"] > button:nth-child(-n+4) {
-    justify-self: center;
-  }
-
-  #interface-container [aria-label="Read aloud controls"] > button:nth-child(5) {
-    width: 100% !important;
-    min-width: 0 !important;
-    height: 2.75rem !important;
-    grid-column: 1 / 4;
-  }
-
-  #interface-container [aria-label="Read aloud controls"] > button:nth-child(6) {
-    width: 2.75rem !important;
-    height: 2.75rem !important;
-    grid-column: 4;
-    justify-self: center;
-  }
-
-  #interface-container [role="menuitemradio"] {
-    min-height: 2.75rem;
-  }
-
-  #interface-container button[aria-label="Mute"] {
-    min-width: 2.75rem;
-    min-height: 2.75rem;
-  }
-
-  #interface-container [role="group"][aria-label="Volume"],
-  #interface-container [data-base-ui-slider-control] {
-    min-height: 2.75rem;
-  }
-
-  #interface-container [data-slot="slider-thumb"] {
-    width: 1rem;
-    height: 1rem;
-  }
-
-  #interface-container [data-slot="slider-thumb"]::after {
-    inset: -0.875rem;
+    padding-bottom: calc(var(--dock-height, 4rem) + 7rem + env(safe-area-inset-bottom));
   }
 }
