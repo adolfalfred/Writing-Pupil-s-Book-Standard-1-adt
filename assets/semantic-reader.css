@@ -335,9 +335,26 @@ body {
   white-space: nowrap;
 }
 
-.trace-row-model-image,
-.handwriting-source-model-image,
-.handwriting-pattern-model-image {
+.word-model-guide {
+  height: clamp(6.5rem, 12vw, 8.5rem);
+}
+
+.word-model-guide .handwriting-model-row {
+  justify-content: center;
+}
+
+#content .word-model-guide .word-model-token {
+  top: 16%;
+  max-width: 94%;
+  font-size: clamp(2.5rem, 7.4cqw, 4rem);
+  overflow-wrap: anywhere;
+}
+
+.copy-practice-group__row + .copy-practice-group__row {
+  margin-top: 1rem;
+}
+
+.trace-row-model-image {
   position: absolute;
   z-index: 1;
   inset: 0;
@@ -348,9 +365,7 @@ body {
   user-select: none;
 }
 
-#content .trace-row-model-image,
-#content .handwriting-source-model-image,
-#content .handwriting-pattern-model-image {
+#content .trace-row-model-image {
   width: 100%;
   height: 100%;
   max-height: none;
@@ -366,11 +381,29 @@ body {
   margin-bottom: 0;
 }
 
-/* Model and answer are two consecutive source writing rows. They share one
-   black separator: black, red, red, black, red, red, black. */
-.handwriting-guide + .handwriting-canvas-wrap {
+.source-model-reference {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background: #fff;
+}
+
+#content .source-model-reference img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
+
+.handwriting-copy-reference + .handwriting-canvas-wrap,
+.handwriting-pattern-reference + .handwriting-canvas-wrap {
   margin-top: 0;
   border-top: 0;
+}
+
+.handwriting-word-reference {
+  margin-bottom: 1rem;
 }
 
 .stroke-practice-layout {
@@ -544,6 +577,162 @@ body {
   padding: .3rem .65rem;
 }
 
+.join-letters {
+  --join-green: #00964f;
+  --join-pale-yellow: #fffbc7;
+  position: relative;
+}
+
+.join-letters--blue-diamond-panel,
+.join-letters--green-circle-panel,
+.join-letters--green-square-panel {
+  margin-top: 2.7rem;
+  border: 2px solid #13b965;
+  background: var(--join-pale-yellow);
+  padding: 1.8rem 1rem 1rem;
+}
+
+.join-exercise-tab {
+  position: absolute;
+  top: -2.15rem;
+  left: -2px;
+  min-width: 14rem;
+  border: 2px solid #13b965;
+  background: var(--join-pale-yellow);
+  padding: .35rem 1.2rem;
+  color: var(--join-green);
+  font-size: 1.45rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.join-letter-row {
+  display: grid;
+  grid-template-columns: auto minmax(11rem, auto) minmax(12rem, 1fr);
+  align-items: center;
+  gap: .75rem;
+  margin: .55rem 0;
+}
+
+.join-row-number {
+  min-width: 2rem;
+  font-size: 1.65rem;
+  font-weight: 800;
+  text-align: right;
+}
+
+.join-letter-response {
+  display: flex;
+  min-width: 0;
+  align-items: center;
+  gap: .65rem;
+}
+
+.join-letter-response .handwriting-canvas-wrap {
+  min-width: 10rem;
+  flex: 1;
+}
+
+.join-letter-response .drawing-clear {
+  align-self: center;
+}
+
+.join-separator {
+  font-size: 1.7rem;
+  font-weight: 800;
+  letter-spacing: .22em;
+}
+
+.join-letters--blue-diamond-worked .join-letter-row,
+.join-letters--blue-diamond-panel .join-letter-row {
+  grid-template-columns: minmax(12rem, auto) minmax(10rem, 1fr);
+}
+
+.join-letters--blue-diamond-worked .letter-tile,
+.join-letters--blue-diamond-panel .letter-tile {
+  position: relative;
+  min-width: 2.9rem;
+  min-height: 2.9rem;
+  border: 0;
+  border-radius: .42rem;
+  background: linear-gradient(145deg, #9fd0ef, #68a8d6);
+  padding: .25rem;
+  transform: rotate(45deg);
+  box-shadow: none;
+}
+
+.join-letters--blue-diamond-worked .letter-tile,
+.join-letters--blue-diamond-panel .letter-tile {
+  color: #171717;
+}
+
+.join-letters--blue-diamond-worked .letter-tile__glyph,
+.join-letters--blue-diamond-panel .letter-tile__glyph {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #171717;
+  font-size: 1.7rem;
+  transform: rotate(-45deg);
+}
+
+.join-letters--blue-diamond-worked .letter-tiles,
+.join-letters--blue-diamond-panel .letter-tiles {
+  gap: 1.15rem;
+}
+
+#content .join-letters--blue-diamond-worked .word-model {
+  display: inline-flex;
+  width: auto;
+  min-height: 3rem;
+  margin: 0;
+  border-radius: .55rem;
+  background: linear-gradient(145deg, #9fd0ef, #68a8d6);
+  padding: .25rem .75rem;
+}
+
+.join-letters--green-circle-worked .letter-tile,
+.join-letters--green-circle-panel .letter-tile {
+  width: 3.2rem;
+  min-width: 3.2rem;
+  height: 3.2rem;
+  min-height: 3.2rem;
+  border: 4px solid #24ad6d;
+  border-radius: 50%;
+  background: radial-gradient(circle at 45% 35%, #fff 60%, #d6d6d6 78%, #333 100%);
+  padding: 0;
+  box-shadow: 0 .18rem 0 #21482f;
+}
+
+.join-letters--green-square-panel .letter-tile {
+  width: 3.25rem;
+  min-width: 3.25rem;
+  height: 3.25rem;
+  min-height: 3.25rem;
+  border: 4px solid #23ad6d;
+  border-radius: 0;
+  background: linear-gradient(145deg, #fff 65%, #d4d4d4 84%, #333 100%);
+  padding: 0;
+}
+
+@media (max-width: 760px) {
+  .join-exercise-tab {
+    min-width: 11rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .join-letter-row,
+  .join-letters--blue-diamond-worked .join-letter-row,
+  .join-letters--blue-diamond-panel .join-letter-row {
+    grid-template-columns: auto minmax(0, 1fr);
+  }
+
+  .join-letter-response {
+    grid-column: 1 / -1;
+  }
+}
+
 .sentence-input {
   min-height: 3.4rem;
   padding: .5rem .75rem;
@@ -702,6 +891,21 @@ body {
   border: 1px solid var(--book-green);
   padding: .35rem;
   text-align: center;
+}
+
+.word-search td.word-search-example {
+  border-top: 3px solid #e31b23;
+  border-bottom: 3px solid #e31b23;
+}
+
+.word-search td.word-search-example--start {
+  border-left: 3px solid #e31b23;
+  border-radius: 999px 0 0 999px;
+}
+
+.word-search td.word-search-example--end {
+  border-right: 3px solid #e31b23;
+  border-radius: 0 999px 999px 0;
 }
 
 .screenshot-card {
