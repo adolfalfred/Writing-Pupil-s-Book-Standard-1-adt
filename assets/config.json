@@ -1,6 +1,6 @@
 {
   "title": "Writing Pupil's Book Standard 1",
-  "bundleVersion": "25",
+  "bundleVersion": "34",
   "languages": {
     "available": [
       "en-GB"
@@ -25,12 +25,10 @@
   },
   "braille": {
     "enabled": true,
-    "implementationPhase": "native-baseline-and-educator-review-manifest",
-    "nativeTextInput": true,
+    "implementationPhase": "drawing-only-and-educator-review-manifest",
+    "nativeTextInput": false,
     "drawingOnlyTaskTypes": [
-      "letter-pattern",
-      "object-drawing",
-      "pattern"
+      "all-canvas-activities"
     ],
     "sixKeyInput": false,
     "translationTable": null,

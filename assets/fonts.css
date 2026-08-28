@@ -43,7 +43,17 @@
 /* Exact modelling face used by the source book on its four-line examples. */
 @font-face {
   font-family: "Maandishi";
-  src: url("./fonts/Maandishi.ttf") format("truetype");
+  src: url("./fonts/Maandishi-web.ttf?v=30") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Same source Maandishi face, rebuilt from the Standard One PDF subset so the
+   capital O—absent from the Standard Two subset—retains its real outline. */
+@font-face {
+  font-family: "Maandishi Complete";
+  src: url("./fonts/Maandishi-title-web.ttf?v=33") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;

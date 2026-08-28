@@ -29,41 +29,12 @@
     }
   }
 
-  function controlValue(control) {
-    return control.isContentEditable ? control.textContent || "" : control.value;
-  }
-
-  function setControlValue(control, value) {
-    if (control.isContentEditable) {
-      control.textContent = value;
-    } else {
-      control.value = value;
-    }
-  }
-
-  function initialiseTextControl(control) {
-    var id = control.getAttribute("data-practice-storage");
-    if (!id) return;
-    var stored = readStored(id);
-    if (stored !== null) setControlValue(control, stored);
-    control.addEventListener("input", function () {
-      writeStored(id, controlValue(control));
-    });
-  }
-
-  function alternativeValue(canvas) {
-    var alternative = document.querySelector(
-      '[data-canvas-alternative="' + canvas.id + '"]'
-    );
-    return alternative ? controlValue(alternative).trim() : "";
-  }
-
   function updateCanvasResponse(canvas, hasDrawing) {
     var response = document.querySelector(
       '[data-canvas-response="' + canvas.id + '"]'
     );
     if (!response) return;
-    var complete = hasDrawing || alternativeValue(canvas) !== "";
+    var complete = hasDrawing;
     var nextValue = complete ? "Response completed" : "";
     if (response.value !== nextValue) {
       response.value = nextValue;
@@ -149,35 +120,9 @@
       });
     }
 
-    var alternative = document.querySelector(
-      '[data-canvas-alternative="' + canvas.id + '"]'
-    );
-    if (alternative) {
-      alternative.addEventListener("input", function () {
-        updateCanvasResponse(canvas, canvas.dataset.hasDrawing === "true");
-      });
-    }
-  }
-
-  function initialiseHandwritingModel(model) {
-    /*
-     * Keep the curriculum-correct vertical size at every breakpoint. SVG
-     * adjusts only the gaps between repeated examples so all models remain
-     * visible on narrow screens without flattening the letter shapes.
-     */
-    model.setAttribute("textLength", "94%");
-    model.setAttribute("lengthAdjust", "spacing");
   }
 
   function initialise() {
-    document
-      .querySelectorAll(".handwriting-model-svg text")
-      .forEach(initialiseHandwritingModel);
-    document
-      .querySelectorAll(
-        'input[data-practice-storage], textarea[data-practice-storage], [contenteditable="true"][data-practice-storage]'
-      )
-      .forEach(initialiseTextControl);
     document.querySelectorAll("canvas.drawing-canvas").forEach(initialiseCanvas);
   }
 
