@@ -776,6 +776,11 @@ body {
   background-size: contain;
 }
 
+.drawing-canvas.is-compact {
+  height: clamp(8rem, 12vw, 10rem);
+  min-height: 8rem;
+}
+
 .handwriting-canvas-wrap {
   width: 100%;
   height: clamp(8rem, 16vw, 11rem);
@@ -821,6 +826,11 @@ body {
   padding: .45rem .85rem;
   color: var(--book-green-dark);
   font-weight: 700;
+}
+
+#content .sentence-exercise--spaced-words .letter-tiles {
+  justify-content: flex-start;
+  gap: clamp(1.5rem, 5vw, 4rem);
 }
 
 .drawing-status-row {
