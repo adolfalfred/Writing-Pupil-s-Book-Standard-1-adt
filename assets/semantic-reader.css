@@ -450,6 +450,14 @@ body {
   gap: 1rem;
 }
 
+.word-practice-grid--full-response {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.word-practice-grid--full-response .word-practice-card {
+  grid-column: 1 / -1;
+}
+
 .screenshot-grid {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
