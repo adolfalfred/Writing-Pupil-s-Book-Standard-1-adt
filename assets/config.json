@@ -1,6 +1,6 @@
 {
   "title": "Writing Pupil's Book Standard 1",
-  "bundleVersion": "40",
+  "bundleVersion": "41",
   "languages": {
     "available": [
       "en-GB"
@@ -8,7 +8,7 @@
     "default": "en-GB"
   },
   "features": {
-    "signLanguage": false,
+    "signLanguage": true,
     "easyRead": true,
     "glossary": true,
     "eli5": false,
