@@ -39984,18 +39984,18 @@ function useAtomValueWithDelay<Value>(
   function useGlossaryHighlighter() {
     const data = useAtomValue(glossaryDataAtom);
     const enabled = useAtomValue(glossaryModeAtom);
+    const ready = useAtomValue(dockReadyAtom);
     (0, import_react15.useEffect)(() => {
-      if (!enabled) {
-        removeGlossaryHighlights();
-        return;
-      }
-      if (Object.keys(data).length === 0) return;
+      if (!ready || Object.keys(data).length === 0) return;
       removeGlossaryHighlights();
-      applyGlossaryHighlights(data);
+      if (enabled) applyGlossaryHighlights(data);
+      // Locate only after the final highlight nodes exist, or bootstrap can
+      // replace the focused word immediately after following a glossary link.
+      processGlossaryLocateHint();
       return () => {
         removeGlossaryHighlights();
       };
-    }, [enabled, data]);
+    }, [ready, enabled, data]);
   }
 
   // src/features/glossary/components/GlossaryHighlighter.tsx
@@ -59304,7 +59304,6 @@ ${OPTION_BASE} [${MARK_ATTR}="incorrect"] {
       applyDOMTranslations();
       initAnalytics(config.analytics);
       showMainContent();
-      processGlossaryLocateHint();
       initializeStepperActivity();
       initializeQuizActivity();
       initializeMultiSelectActivity();
