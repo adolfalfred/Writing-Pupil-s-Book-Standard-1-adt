@@ -812,6 +812,37 @@ body {
   background-image: none;
 }
 
+.phone-writing-rest {
+  display: none;
+}
+
+@media screen and (max-width: 599px) {
+  .phone-writing-first,
+  .phone-writing-rest {
+    overflow: clip;
+  }
+
+  .phone-writing-rest {
+    display: block;
+    margin-top: 0;
+    border-top: 0;
+  }
+
+  .trace-row-stack > .phone-writing-rest {
+    margin-top: -1rem; /* Keep just the shared black rule where the rows meet. */
+  }
+
+  #content :is(.phone-writing-first, .phone-writing-rest) > :is(canvas, .trace-row-model-image) {
+    width: var(--writing-strip-width);
+    max-width: none;
+  }
+
+  .phone-writing-rest > :is(canvas, .trace-row-model-image) {
+    left: auto;
+    right: 0;
+  }
+}
+
 .pattern-card > figure {
   margin-bottom: .35rem;
 }
@@ -1360,7 +1391,24 @@ body {
 }
 
 @media (max-width: 760px) {
-  .lesson-card,
+  .lesson-card {
+    grid-template-columns: minmax(0, 1fr) 50%;
+    column-gap: clamp(.5rem, 2vw, 1rem);
+  }
+
+  .lesson-card > :only-child {
+    grid-column: 1 / -1;
+  }
+
+  .lesson-illustration {
+    min-height: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .lesson-illustration img {
+    max-height: clamp(5rem, 26vw, 9rem);
+  }
+
   .sentence-exercise,
   .unit-character-intro,
   .digital-step--app-icon,
@@ -1408,7 +1456,8 @@ body {
   }
 
   .stroke-direction-image {
-    max-width: 9rem;
+    width: 50%;
+    margin-inline: auto;
   }
 
   .word-practice-grid,
@@ -1480,6 +1529,39 @@ body {
   .introduction-library img {
     width: 6.5rem;
     height: 6.5rem;
+  }
+}
+
+.phone-sample {
+  display: contents;
+}
+
+.phone-sample-view {
+  display: none;
+}
+
+@media screen and (max-width: 599px) {
+  .phone-sample {
+    position: relative;
+    display: block;
+  }
+
+  /* Retain the original narration target and hit area without displaying a
+     second copy of the image. The visible SVG is purely presentational. */
+  #content .phone-sample > img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    max-height: none;
+    opacity: 0;
+  }
+
+  .phone-sample-view {
+    display: block;
+    width: 100%;
+    height: auto;
+    pointer-events: none;
   }
 }
 

@@ -1,1 +1,1009 @@
-{}
+{
+  "alphabetical order": {
+    "word": "alphabetical order",
+    "definition": "The order of the letters in the alphabet: a, b, c and so on.",
+    "variations": [
+      "alphabetical order"
+    ],
+    "emoji": "🔤",
+    "pages": [
+      "pg094_sec001"
+    ]
+  },
+  "ant": {
+    "word": "ant",
+    "definition": "A small insect with six legs that lives in a group with other ants.",
+    "variations": [
+      "ant"
+    ],
+    "emoji": "🐜",
+    "pages": [
+      "pg015_sec001",
+      "pg021_sec001"
+    ]
+  },
+  "app": {
+    "word": "app",
+    "definition": "A program you can open on a phone, tablet or computer to do something, such as play a game.",
+    "variations": [
+      "app"
+    ],
+    "emoji": "📱",
+    "pages": [
+      "pg090_sec001",
+      "pg096_sec001"
+    ]
+  },
+  "arrange": {
+    "word": "arrange",
+    "definition": "To put things in a chosen order.",
+    "variations": [
+      "arrange"
+    ],
+    "emoji": "🔢",
+    "pages": [
+      "pg094_sec001",
+      "pg095_sec001"
+    ]
+  },
+  "ball": {
+    "word": "ball",
+    "definition": "A round object you can roll, throw or kick in a game.",
+    "variations": [
+      "ball"
+    ],
+    "emoji": "⚽",
+    "pages": [
+      "pg027_sec001",
+      "pg058_sec001",
+      "pg085_sec001"
+    ]
+  },
+  "car": {
+    "word": "car",
+    "definition": "A vehicle with four wheels that carries a few people on roads.",
+    "variations": [
+      "car"
+    ],
+    "emoji": "🚗",
+    "pages": [
+      "pg028_sec002",
+      "pg059_sec002"
+    ]
+  },
+  "consonant": {
+    "word": "consonant",
+    "definition": "A letter such as b, m or t. These are not vowel letters.",
+    "variations": [
+      "consonant",
+      "consonants"
+    ],
+    "emoji": "🔤",
+    "pages": [
+      "pg010_sec001",
+      "pg027_sec001",
+      "pg057_sec001",
+      "pg058_sec001",
+      "pg084_sec001"
+    ]
+  },
+  "copy": {
+    "word": "copy",
+    "definition": "To look at an example and make another one like it.",
+    "variations": [
+      "copy"
+    ],
+    "emoji": "✏️",
+    "pages": [
+      "pg014_sec001",
+      "pg017_sec001",
+      "pg018_sec001",
+      "pg019_sec001",
+      "pg020_sec001",
+      "pg022_sec001",
+      "pg023_sec001",
+      "pg024_sec001",
+      "pg025_sec001",
+      "pg026_sec001",
+      "pg028_sec001",
+      "pg029_sec001",
+      "pg030_sec001",
+      "pg030_sec002",
+      "pg031_sec001",
+      "pg032_sec001",
+      "pg033_sec001",
+      "pg033_sec002",
+      "pg034_sec001",
+      "pg035_sec001",
+      "pg036_sec001",
+      "pg037_sec001",
+      "pg039_sec001",
+      "pg040_sec001",
+      "pg041_sec001",
+      "pg042_sec001",
+      "pg043_sec001",
+      "pg044_sec001",
+      "pg045_sec001",
+      "pg047_sec001",
+      "pg048_sec001",
+      "pg049_sec001",
+      "pg050_sec001",
+      "pg051_sec001",
+      "pg053_sec001",
+      "pg059_sec001",
+      "pg060_sec001",
+      "pg061_sec001",
+      "pg062_sec001",
+      "pg063_sec001",
+      "pg063_sec002",
+      "pg064_sec001",
+      "pg064_sec002",
+      "pg065_sec001",
+      "pg065_sec002",
+      "pg066_sec001",
+      "pg066_sec002",
+      "pg067_sec001",
+      "pg068_sec001",
+      "pg069_sec001",
+      "pg070_sec001",
+      "pg071_sec001",
+      "pg072_sec001",
+      "pg073_sec001",
+      "pg073_sec002",
+      "pg074_sec001",
+      "pg074_sec002",
+      "pg075_sec001",
+      "pg075_sec002",
+      "pg076_sec001",
+      "pg077_sec001",
+      "pg078_sec001",
+      "pg079_sec001",
+      "pg080_sec001",
+      "pg081_sec001"
+    ]
+  },
+  "device": {
+    "word": "device",
+    "definition": "A tool such as a phone, tablet or computer that can run an app.",
+    "variations": [
+      "device"
+    ],
+    "emoji": "💻",
+    "pages": [
+      "pg090_sec001"
+    ]
+  },
+  "digital resource": {
+    "word": "digital resource",
+    "definition": "Something you can use on a phone, tablet or computer to help you learn, such as a letter game.",
+    "variations": [
+      "digital resource",
+      "digital resources"
+    ],
+    "emoji": "💻",
+    "pages": [
+      "pg020_sec001",
+      "pg026_sec001",
+      "pg057_sec001",
+      "pg084_sec001",
+      "pg090_sec001"
+    ]
+  },
+  "dog": {
+    "word": "dog",
+    "definition": "An animal that barks and is often kept as a pet.",
+    "variations": [
+      "dog"
+    ],
+    "emoji": "🐕",
+    "pages": [
+      "pg029_sec002",
+      "pg037_sec001",
+      "pg061_sec001"
+    ]
+  },
+  "dot": {
+    "word": "dot",
+    "definition": "A small mark, like the one above the letter i.",
+    "variations": [
+      "dot",
+      "dots"
+    ],
+    "emoji": "•",
+    "pages": [
+      "pg014_sec001"
+    ]
+  },
+  "dotted": {
+    "word": "dotted",
+    "definition": "Made of little dots instead of one solid line.",
+    "variations": [
+      "dotted"
+    ],
+    "emoji": "✏️",
+    "pages": [
+      "pg092_sec001"
+    ]
+  },
+  "download": {
+    "word": "download",
+    "definition": "To save something from the internet onto your device.",
+    "variations": [
+      "download"
+    ],
+    "emoji": "⬇️",
+    "pages": [
+      "pg096_sec001"
+    ]
+  },
+  "drag": {
+    "word": "drag",
+    "definition": "To press and hold an item on a screen and move it before letting go.",
+    "variations": [
+      "drag",
+      "dragging"
+    ],
+    "emoji": "👆",
+    "pages": [
+      "pg095_sec001"
+    ]
+  },
+  "draw": {
+    "word": "draw",
+    "definition": "To make a picture or a shape using lines.",
+    "variations": [
+      "draw",
+      "drawing"
+    ],
+    "emoji": "🖍️",
+    "pages": [
+      "pg010_sec001",
+      "pg011_sec001",
+      "pg013_sec002",
+      "pg015_sec001",
+      "pg016_sec002",
+      "pg017_sec002",
+      "pg018_sec002",
+      "pg019_sec002",
+      "pg021_sec001",
+      "pg022_sec002",
+      "pg023_sec002",
+      "pg024_sec002",
+      "pg025_sec002",
+      "pg027_sec001",
+      "pg028_sec002",
+      "pg029_sec002",
+      "pg034_sec001",
+      "pg035_sec001",
+      "pg036_sec001",
+      "pg038_sec002",
+      "pg039_sec002",
+      "pg040_sec002",
+      "pg042_sec002",
+      "pg043_sec002",
+      "pg047_sec001",
+      "pg048_sec001",
+      "pg049_sec001",
+      "pg050_sec001",
+      "pg059_sec002",
+      "pg062_sec001",
+      "pg067_sec002",
+      "pg070_sec002",
+      "pg072_sec001",
+      "pg075_sec002",
+      "pg076_sec002",
+      "pg077_sec002",
+      "pg080_sec001",
+      "pg087_sec001",
+      "pg090_sec001",
+      "pg092_sec001"
+    ]
+  },
+  "egg": {
+    "word": "egg",
+    "definition": "An oval thing with a shell that a bird, such as a hen, lays.",
+    "variations": [
+      "egg"
+    ],
+    "emoji": "🥚",
+    "pages": [
+      "pg016_sec002",
+      "pg022_sec002"
+    ]
+  },
+  "fish": {
+    "word": "fish",
+    "definition": "An animal that lives in water and uses its fins to swim.",
+    "variations": [
+      "fish"
+    ],
+    "emoji": "🐟",
+    "pages": [
+      "pg030_sec002",
+      "pg062_sec001"
+    ]
+  },
+  "GCompris": {
+    "word": "GCompris",
+    "definition": "A learning app with games. In this book you use it to trace letters and put them in order.",
+    "variations": [
+      "GCompris"
+    ],
+    "emoji": "🎮",
+    "pages": [
+      "pg090_sec001",
+      "pg096_sec001"
+    ]
+  },
+  "goat": {
+    "word": "goat",
+    "definition": "A farm animal that often has horns. People may keep goats for their milk.",
+    "variations": [
+      "goat"
+    ],
+    "emoji": "🐐",
+    "pages": [
+      "pg032_sec001",
+      "pg063_sec002"
+    ]
+  },
+  "hat": {
+    "word": "hat",
+    "definition": "Something you wear on your head, often to keep off the sun.",
+    "variations": [
+      "hat"
+    ],
+    "emoji": "👒",
+    "pages": [
+      "pg032_sec002",
+      "pg064_sec002"
+    ]
+  },
+  "ice cream": {
+    "word": "ice cream",
+    "definition": "A sweet, frozen food you can eat from a cone or a bowl.",
+    "variations": [
+      "ice cream"
+    ],
+    "emoji": "🍦",
+    "pages": [
+      "pg017_sec002",
+      "pg023_sec002"
+    ]
+  },
+  "join": {
+    "word": "join",
+    "definition": "To put things together, such as letters to make a word.",
+    "variations": [
+      "join",
+      "joining"
+    ],
+    "emoji": "🔗",
+    "pages": [
+      "pg031_sec001",
+      "pg037_sec001",
+      "pg038_sec001",
+      "pg044_sec002",
+      "pg046_sec001",
+      "pg052_sec001",
+      "pg053_sec001",
+      "pg085_sec001",
+      "pg086_sec001"
+    ]
+  },
+  "jug": {
+    "word": "jug",
+    "definition": "A container with a handle that you can use to pour water or another drink.",
+    "variations": [
+      "jug"
+    ],
+    "emoji": "🫗",
+    "pages": [
+      "pg033_sec002",
+      "pg065_sec002"
+    ]
+  },
+  "kite": {
+    "word": "kite",
+    "definition": "A light toy that flies in the wind while you hold its string.",
+    "variations": [
+      "kite"
+    ],
+    "emoji": "🪁",
+    "pages": [
+      "pg034_sec001",
+      "pg052_sec001",
+      "pg066_sec002"
+    ]
+  },
+  "leg": {
+    "word": "leg",
+    "definition": "The part of your body between your hip and your foot.",
+    "variations": [
+      "leg"
+    ],
+    "emoji": "🦵",
+    "pages": [
+      "pg035_sec001",
+      "pg067_sec002"
+    ]
+  },
+  "letter": {
+    "word": "letter",
+    "definition": "A sign in the alphabet, like a or b, that we use to write words.",
+    "variations": [
+      "letter",
+      "letters"
+    ],
+    "emoji": "🔤",
+    "pages": [
+      "pg010_sec001",
+      "pg015_sec001",
+      "pg016_sec001",
+      "pg016_sec002",
+      "pg017_sec001",
+      "pg017_sec002",
+      "pg018_sec001",
+      "pg018_sec002",
+      "pg019_sec001",
+      "pg019_sec002",
+      "pg020_sec001",
+      "pg021_sec001",
+      "pg022_sec002",
+      "pg023_sec001",
+      "pg023_sec002",
+      "pg024_sec001",
+      "pg024_sec002",
+      "pg025_sec001",
+      "pg025_sec002",
+      "pg026_sec001",
+      "pg027_sec001",
+      "pg028_sec001",
+      "pg028_sec002",
+      "pg029_sec001",
+      "pg029_sec002",
+      "pg030_sec001",
+      "pg030_sec002",
+      "pg031_sec001",
+      "pg032_sec001",
+      "pg032_sec002",
+      "pg033_sec001",
+      "pg033_sec002",
+      "pg034_sec001",
+      "pg035_sec001",
+      "pg036_sec001",
+      "pg037_sec001",
+      "pg038_sec001",
+      "pg038_sec002",
+      "pg039_sec001",
+      "pg039_sec002",
+      "pg040_sec001",
+      "pg040_sec002",
+      "pg041_sec001",
+      "pg041_sec002",
+      "pg042_sec001",
+      "pg042_sec002",
+      "pg043_sec001",
+      "pg043_sec002",
+      "pg044_sec001",
+      "pg044_sec002",
+      "pg046_sec001",
+      "pg047_sec001",
+      "pg048_sec001",
+      "pg049_sec001",
+      "pg050_sec001",
+      "pg051_sec001",
+      "pg052_sec001",
+      "pg053_sec001",
+      "pg057_sec001",
+      "pg058_sec001",
+      "pg059_sec002",
+      "pg060_sec001",
+      "pg061_sec001",
+      "pg062_sec001",
+      "pg063_sec002",
+      "pg064_sec002",
+      "pg065_sec002",
+      "pg066_sec002",
+      "pg067_sec002",
+      "pg068_sec002",
+      "pg069_sec002",
+      "pg070_sec002",
+      "pg071_sec001",
+      "pg072_sec001",
+      "pg073_sec002",
+      "pg074_sec002",
+      "pg075_sec002",
+      "pg076_sec002",
+      "pg077_sec002",
+      "pg078_sec001",
+      "pg079_sec001",
+      "pg080_sec001",
+      "pg081_sec001",
+      "pg084_sec001",
+      "pg090_sec001",
+      "pg092_sec001",
+      "pg093_sec001",
+      "pg094_sec001",
+      "pg095_sec001"
+    ]
+  },
+  "line": {
+    "word": "line",
+    "definition": "A mark that goes from one place to another. It can be straight or curved.",
+    "variations": [
+      "line",
+      "lines"
+    ],
+    "emoji": "✏️",
+    "pages": [
+      "pg011_sec001"
+    ]
+  },
+  "lowercase": {
+    "word": "lowercase",
+    "definition": "The small form of a letter, like a, b or c.",
+    "variations": [
+      "lowercase"
+    ],
+    "emoji": "🔤",
+    "pages": [
+      "pg010_sec001",
+      "pg015_sec001",
+      "pg020_sec001",
+      "pg027_sec001",
+      "pg057_sec001"
+    ]
+  },
+  "monkey": {
+    "word": "monkey",
+    "definition": "An animal with hands that can grip branches and climb trees.",
+    "variations": [
+      "monkey"
+    ],
+    "emoji": "🐒",
+    "pages": [
+      "pg036_sec001",
+      "pg068_sec002"
+    ]
+  },
+  "nose": {
+    "word": "nose",
+    "definition": "The part of your face that you use to smell and breathe.",
+    "variations": [
+      "nose"
+    ],
+    "emoji": "👃",
+    "pages": [
+      "pg038_sec002",
+      "pg044_sec002",
+      "pg069_sec002"
+    ]
+  },
+  "orange": {
+    "word": "orange",
+    "definition": "A round, juicy fruit with a peel and many small sections inside.",
+    "variations": [
+      "orange"
+    ],
+    "emoji": "🍊",
+    "pages": [
+      "pg018_sec002",
+      "pg024_sec002"
+    ]
+  },
+  "pattern": {
+    "word": "pattern",
+    "definition": "A set of shapes, lines or marks that repeats.",
+    "variations": [
+      "pattern",
+      "patterns"
+    ],
+    "emoji": "〰️",
+    "pages": [
+      "pg011_sec001",
+      "pg014_sec001",
+      "pg015_sec001",
+      "pg016_sec002",
+      "pg017_sec002",
+      "pg018_sec002",
+      "pg019_sec002",
+      "pg021_sec001",
+      "pg022_sec002",
+      "pg023_sec002",
+      "pg024_sec002",
+      "pg025_sec002",
+      "pg027_sec001",
+      "pg028_sec002",
+      "pg029_sec002",
+      "pg034_sec001",
+      "pg035_sec001",
+      "pg036_sec001",
+      "pg038_sec002",
+      "pg039_sec002",
+      "pg040_sec002",
+      "pg042_sec002",
+      "pg043_sec002",
+      "pg047_sec001",
+      "pg048_sec001",
+      "pg049_sec001",
+      "pg050_sec001",
+      "pg059_sec002",
+      "pg062_sec001",
+      "pg067_sec002",
+      "pg070_sec002",
+      "pg072_sec001",
+      "pg075_sec002",
+      "pg076_sec002",
+      "pg077_sec002",
+      "pg080_sec001"
+    ]
+  },
+  "pot": {
+    "word": "pot",
+    "definition": "A deep container used to hold things or to cook food.",
+    "variations": [
+      "pot"
+    ],
+    "emoji": "🏺",
+    "pages": [
+      "pg039_sec002",
+      "pg070_sec002"
+    ]
+  },
+  "QR code": {
+    "word": "QR code",
+    "definition": "A square pattern you can scan with a camera to open a link.",
+    "variations": [
+      "QR code"
+    ],
+    "emoji": "📷",
+    "pages": [
+      "pg096_sec001"
+    ]
+  },
+  "queen": {
+    "word": "queen",
+    "definition": "A woman who rules a kingdom or is married to a king.",
+    "variations": [
+      "queen"
+    ],
+    "emoji": "👑",
+    "pages": [
+      "pg040_sec002",
+      "pg072_sec001"
+    ]
+  },
+  "rat": {
+    "word": "rat",
+    "definition": "A small animal that looks like a large mouse and has a long tail.",
+    "variations": [
+      "rat"
+    ],
+    "emoji": "🐀",
+    "pages": [
+      "pg041_sec002",
+      "pg044_sec002",
+      "pg073_sec002"
+    ]
+  },
+  "rearrange": {
+    "word": "rearrange",
+    "definition": "To change the order of things, such as moving words to make a sentence.",
+    "variations": [
+      "rearrange"
+    ],
+    "emoji": "↔️",
+    "pages": [
+      "pg088_sec001"
+    ]
+  },
+  "screen": {
+    "word": "screen",
+    "definition": "The part of a phone, tablet or computer where pictures and words appear.",
+    "variations": [
+      "screen"
+    ],
+    "emoji": "💻",
+    "pages": [
+      "pg090_sec001",
+      "pg091_sec001",
+      "pg093_sec001"
+    ]
+  },
+  "sentence": {
+    "word": "sentence",
+    "definition": "Words that give a complete message, like “Stand up.”",
+    "variations": [
+      "sentence",
+      "sentences"
+    ],
+    "emoji": "💬",
+    "pages": [
+      "pg010_sec001",
+      "pg085_sec001",
+      "pg086_sec001",
+      "pg087_sec001",
+      "pg088_sec001"
+    ]
+  },
+  "shape": {
+    "word": "shape",
+    "definition": "The form of something, such as a circle or a square.",
+    "variations": [
+      "shape",
+      "shapes"
+    ],
+    "emoji": "🔷",
+    "pages": [
+      "pg010_sec001"
+    ]
+  },
+  "soap": {
+    "word": "soap",
+    "definition": "Something you use with water to wash your hands and body.",
+    "variations": [
+      "soap"
+    ],
+    "emoji": "🧼",
+    "pages": [
+      "pg042_sec002",
+      "pg074_sec002"
+    ]
+  },
+  "trace": {
+    "word": "trace",
+    "definition": "To follow a line or dots with your finger or pencil.",
+    "variations": [
+      "trace",
+      "tracing"
+    ],
+    "emoji": "✍️",
+    "pages": [
+      "pg012_sec002",
+      "pg014_sec001",
+      "pg015_sec001",
+      "pg017_sec001",
+      "pg018_sec001",
+      "pg019_sec001",
+      "pg020_sec001",
+      "pg021_sec001",
+      "pg023_sec001",
+      "pg024_sec001",
+      "pg025_sec001",
+      "pg026_sec001",
+      "pg028_sec001",
+      "pg029_sec001",
+      "pg029_sec002",
+      "pg030_sec002",
+      "pg032_sec001",
+      "pg032_sec002",
+      "pg033_sec002",
+      "pg034_sec001",
+      "pg035_sec001",
+      "pg036_sec001",
+      "pg039_sec001",
+      "pg040_sec001",
+      "pg041_sec001",
+      "pg041_sec002",
+      "pg042_sec002",
+      "pg043_sec002",
+      "pg047_sec001",
+      "pg048_sec001",
+      "pg049_sec001",
+      "pg050_sec001",
+      "pg051_sec001",
+      "pg058_sec001",
+      "pg060_sec001",
+      "pg061_sec001",
+      "pg062_sec001",
+      "pg063_sec002",
+      "pg064_sec002",
+      "pg065_sec002",
+      "pg066_sec002",
+      "pg067_sec002",
+      "pg068_sec002",
+      "pg069_sec002",
+      "pg071_sec001",
+      "pg072_sec001",
+      "pg073_sec002",
+      "pg074_sec002",
+      "pg075_sec002",
+      "pg076_sec002",
+      "pg078_sec001",
+      "pg079_sec001",
+      "pg080_sec001",
+      "pg081_sec001",
+      "pg093_sec001"
+    ]
+  },
+  "tree": {
+    "word": "tree",
+    "definition": "A tall plant with a trunk and branches.",
+    "variations": [
+      "tree"
+    ],
+    "emoji": "🌳",
+    "pages": [
+      "pg043_sec002",
+      "pg075_sec002"
+    ]
+  },
+  "umbrella": {
+    "word": "umbrella",
+    "definition": "A cover on a handle that you open above your head to keep the rain off.",
+    "variations": [
+      "umbrella"
+    ],
+    "emoji": "☂️",
+    "pages": [
+      "pg019_sec002",
+      "pg025_sec002"
+    ]
+  },
+  "uppercase": {
+    "word": "uppercase",
+    "definition": "The capital form of a letter, like A, B or C.",
+    "variations": [
+      "uppercase"
+    ],
+    "emoji": "🔠",
+    "pages": [
+      "pg010_sec001",
+      "pg021_sec001",
+      "pg026_sec001",
+      "pg058_sec001",
+      "pg084_sec001"
+    ]
+  },
+  "van": {
+    "word": "van",
+    "definition": "A road vehicle with room inside to carry people or goods.",
+    "variations": [
+      "van"
+    ],
+    "emoji": "🚐",
+    "pages": [
+      "pg047_sec001",
+      "pg076_sec002"
+    ]
+  },
+  "vowel": {
+    "word": "vowel",
+    "definition": "One of the letters a, e, i, o and u that you practise in this book.",
+    "variations": [
+      "vowel",
+      "vowels"
+    ],
+    "emoji": "🔤",
+    "pages": [
+      "pg010_sec001",
+      "pg015_sec001",
+      "pg020_sec001",
+      "pg021_sec001",
+      "pg026_sec001"
+    ]
+  },
+  "watermelon": {
+    "word": "watermelon",
+    "definition": "A large fruit with thick green skin and juicy flesh inside.",
+    "variations": [
+      "watermelon"
+    ],
+    "emoji": "🍉",
+    "pages": [
+      "pg048_sec001",
+      "pg077_sec002"
+    ]
+  },
+  "word": {
+    "word": "word",
+    "definition": "Something we can say or write that has a meaning, like cat.",
+    "variations": [
+      "word",
+      "words"
+    ],
+    "emoji": "💬",
+    "pages": [
+      "pg010_sec001",
+      "pg031_sec001",
+      "pg037_sec001",
+      "pg038_sec001",
+      "pg044_sec002",
+      "pg045_sec001",
+      "pg046_sec001",
+      "pg052_sec001",
+      "pg053_sec001",
+      "pg054_sec001",
+      "pg059_sec001",
+      "pg060_sec001",
+      "pg061_sec001",
+      "pg063_sec001",
+      "pg064_sec001",
+      "pg065_sec001",
+      "pg066_sec001",
+      "pg067_sec001",
+      "pg068_sec001",
+      "pg069_sec001",
+      "pg070_sec001",
+      "pg071_sec001",
+      "pg073_sec001",
+      "pg074_sec001",
+      "pg075_sec001",
+      "pg076_sec001",
+      "pg077_sec001",
+      "pg078_sec001",
+      "pg079_sec001",
+      "pg080_sec001",
+      "pg081_sec001",
+      "pg085_sec001",
+      "pg086_sec001",
+      "pg088_sec001",
+      "pg090_sec001"
+    ]
+  },
+  "write": {
+    "word": "write",
+    "definition": "To make letters or words, for example with a pencil.",
+    "variations": [
+      "write",
+      "writing"
+    ],
+    "emoji": "✍️",
+    "pages": [
+      "pg001_sec001",
+      "pg008_sec001",
+      "pg010_sec001",
+      "pg011_sec001",
+      "pg015_sec001",
+      "pg016_sec001",
+      "pg020_sec001",
+      "pg021_sec001",
+      "pg026_sec001",
+      "pg027_sec001",
+      "pg054_sec001",
+      "pg057_sec001",
+      "pg058_sec001",
+      "pg082_sec001",
+      "pg084_sec001",
+      "pg085_sec001",
+      "pg087_sec001"
+    ]
+  },
+  "xylophone": {
+    "word": "xylophone",
+    "definition": "A musical instrument with a row of bars that you tap to make different sounds.",
+    "variations": [
+      "xylophone"
+    ],
+    "emoji": "🎵",
+    "pages": [
+      "pg049_sec001",
+      "pg079_sec001"
+    ]
+  },
+  "yam": {
+    "word": "yam",
+    "definition": "A plant with a thick part that grows underground and can be cooked and eaten.",
+    "variations": [
+      "yam"
+    ],
+    "emoji": "🌱",
+    "pages": [
+      "pg050_sec001",
+      "pg080_sec001"
+    ]
+  },
+  "zebra": {
+    "word": "zebra",
+    "definition": "A wild animal like a horse with black and white stripes.",
+    "variations": [
+      "zebra"
+    ],
+    "emoji": "🦓",
+    "pages": [
+      "pg051_sec001",
+      "pg081_sec001"
+    ]
+  }
+}
